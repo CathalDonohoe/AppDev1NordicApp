@@ -5,9 +5,9 @@
     <ContentPage.Content>
         <StackLayout>
             <ScrollView>
-                <StackLayout>
-                    <Image x:Name="imageBalder" Aspect="AspectFit" Source=""></Image>
-                    <Label Text="Balder"
+                <StackLayout BackgroundColor="DarkGray">
+                    <Image x:Name="imageBalder" Aspect="AspectFit"></Image>
+                    <Label Text="Balder" Font="Bold, 100"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
                     <Frame BackgroundColor="Yellow" HeightRequest="600" WidthRequest="150">
@@ -19,6 +19,7 @@
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
                     </Frame>
+                    <Image x:Name="imageBalder2" Aspect="AspectFit"></Image>
                 </StackLayout>
             </ScrollView>
         </StackLayout>

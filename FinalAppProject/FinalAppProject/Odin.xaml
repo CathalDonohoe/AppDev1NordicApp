@@ -4,9 +4,9 @@
              x:Class="FinalAppProject.Odin">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout>
-                <Image x:Name="imageOdin" Aspect="AspectFit" Source=""></Image>
-                <Label Text="Odin"
+            <StackLayout BackgroundColor="DarkGray">
+                <Image x:Name="imageOdin" Aspect="AspectFit"></Image>
+                <Label Text="Odin" Font="Bold, 100"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
                 <Frame BackgroundColor="Red" HeightRequest="600" WidthRequest="150">
@@ -27,6 +27,7 @@
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
                 </Frame>
+                <Image x:Name="imageOdinSymbol" Aspect="AspectFit"></Image>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

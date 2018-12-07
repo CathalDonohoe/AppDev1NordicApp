@@ -5,9 +5,9 @@
     <ContentPage.Content>
         <StackLayout>
             <ScrollView>
-                <StackLayout>
-                    <Image x:Name="imageFreya" Aspect="AspectFit" Source=""></Image>
-                    <Label Text="Freya"
+                <StackLayout BackgroundColor="DarkGray">
+                    <Image x:Name="imageFreya" Aspect="AspectFit"></Image>
+                    <Label Text="Freya" Font="Bold, 100"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
                     <Frame BackgroundColor="Pink" HeightRequest="600" WidthRequest="150">
@@ -25,6 +25,7 @@
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
                     </Frame>
+                    <Image x:Name="imageFreyaSymbol" Aspect="AspectFit"></Image>
                 </StackLayout>
             </ScrollView>
         </StackLayout>

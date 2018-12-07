@@ -16,6 +16,7 @@ namespace FinalAppProject
 		{
 			InitializeComponent ();
             SetUpImages();
+            SetUpImages2();
 		}
 
         private void SetUpImages()
@@ -30,6 +31,21 @@ namespace FinalAppProject
             string strFilename = "FinalAppProject.Assets.Images.Tyr.png";
 
             imageTyr.Source = ImageSource.FromResource(strFilename, assembly);
+
+        }
+
+        private void SetUpImages2()
+        {
+            // get the assembly
+            var assembly = typeof(MainPage);
+            /*
+             * need a directory path - ImageSample/Assets/Images/oogway.jpg
+             * two parameters are that directory path in that assembly
+             */
+
+            string strFilename = "FinalAppProject.Assets.Images.TyrSymbol.png";
+
+            imageTyrSymbol.Source = ImageSource.FromResource(strFilename, assembly);
 
         }
     }

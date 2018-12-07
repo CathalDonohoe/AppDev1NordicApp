@@ -5,9 +5,9 @@
     <ContentPage.Content>
         <StackLayout>
             <ScrollView>
-                <StackLayout>
-                    <Image x:Name="imageBragi" Aspect="AspectFit" Source=""></Image>
-                    <Label Text="Bragi"
+                <StackLayout BackgroundColor="DarkGray">
+                    <Image x:Name="imageBragi" Aspect="AspectFit"></Image>
+                    <Label Text="Bragi" Font="Bold, 100"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
                     <Frame BackgroundColor="Purple" HeightRequest="600" WidthRequest="150">
@@ -22,6 +22,7 @@
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
                     </Frame>
+                    <Image x:Name="imageBragiSymbol" Aspect="AspectFit"></Image>
                 </StackLayout>
             </ScrollView>
         </StackLayout>

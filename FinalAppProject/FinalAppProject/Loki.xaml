@@ -4,9 +4,9 @@
              x:Class="FinalAppProject.Loki">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout>
-                <Image x:Name="imageLoki" Aspect="AspectFit" Source=""></Image>
-                <Label Text="Loki"
+            <StackLayout BackgroundColor="DarkGray">
+                <Image x:Name="imageLoki" Aspect="AspectFit"></Image>
+                <Label Text="Loki" Font="Bold, 100"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
                 <Frame BackgroundColor="Crimson" HeightRequest="600" WidthRequest="150">
@@ -34,6 +34,7 @@
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
                 </Frame>
+                <Image x:Name="imageLokiSymbol" Aspect="AspectFit"></Image>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

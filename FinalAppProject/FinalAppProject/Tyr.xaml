@@ -4,9 +4,9 @@
              x:Class="FinalAppProject.Tyr">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout>
-                <Image x:Name="imageTyr" Aspect="AspectFit" Source=""></Image>
-                <Label Text="Tyr"
+            <StackLayout BackgroundColor="DarkGray"> 
+                <Image x:Name="imageTyr" Aspect="AspectFit"></Image>
+                <Label Text="Tyr" Font="Bold, 100"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
                 <Frame BackgroundColor="SaddleBrown" HeightRequest="600" WidthRequest="150">
@@ -20,6 +20,7 @@
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
                 </Frame>
+                <Image x:Name="imageTyrSymbol" Aspect="AspectFit"></Image>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

@@ -4,9 +4,9 @@
              x:Class="FinalAppProject.Heimdall">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout>
-                <Image x:Name="imageHeimdall" Aspect="AspectFit" Source=""></Image>
-                <Label Text="Heimdall"
+            <StackLayout BackgroundColor="DarkGray">
+                <Image x:Name="imageHeimdall" Aspect="AspectFit"></Image>
+                <Label Text="Heimdall" Font="Bold, 100"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
                 <Frame BackgroundColor="Green" HeightRequest="600" WidthRequest="150">
@@ -25,6 +25,7 @@
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
                 </Frame>
+                <Image x:Name="imageHeimdallSymbol" Aspect="AspectFit"></Image>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

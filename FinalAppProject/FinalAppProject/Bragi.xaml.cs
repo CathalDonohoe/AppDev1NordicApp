@@ -16,6 +16,7 @@ namespace FinalAppProject
 		{
 			InitializeComponent ();
             SetUpImages();
+            SetUpImages2();
 		}
 
 
@@ -31,6 +32,21 @@ namespace FinalAppProject
             string strFilename = "FinalAppProject.Assets.Images.Bragi.png";
 
             imageBragi.Source = ImageSource.FromResource(strFilename, assembly);
+
+        }
+
+        private void SetUpImages2()
+        {
+            // get the assembly
+            var assembly = typeof(MainPage);
+            /*
+             * need a directory path - ImageSample/Assets/Images/oogway.jpg
+             * two parameters are that directory path in that assembly
+             */
+
+            string strFilename = "FinalAppProject.Assets.Images.BragiSymbol.png";
+
+            imageBragiSymbol.Source = ImageSource.FromResource(strFilename, assembly);
 
         }
     }

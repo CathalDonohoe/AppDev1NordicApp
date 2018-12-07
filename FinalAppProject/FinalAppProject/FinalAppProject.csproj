@@ -12,32 +12,56 @@
   <ItemGroup>
     <None Remove="Assets\Images\Background Image.png" />
     <None Remove="Assets\Images\Balder.png" />
+    <None Remove="Assets\Images\Balder2.png" />
     <None Remove="Assets\Images\Bragi.png" />
+    <None Remove="Assets\Images\BragiSymbol.png" />
     <None Remove="Assets\Images\Freya.png" />
+    <None Remove="Assets\Images\FreyaSymbol.jpg" />
     <None Remove="Assets\Images\Freyr.png" />
+    <None Remove="Assets\Images\Freyr2.png" />
     <None Remove="Assets\Images\Frigg.png" />
+    <None Remove="Assets\Images\Frigg2.png" />
     <None Remove="Assets\Images\Heimdall.png" />
+    <None Remove="Assets\Images\HeimdallSymbol.png" />
     <None Remove="Assets\Images\Hel.png" />
+    <None Remove="Assets\Images\HelSymbol.png" />
     <None Remove="Assets\Images\Loki.png" />
+    <None Remove="Assets\Images\LokiSymbol.png" />
     <None Remove="Assets\Images\Odin.png" />
+    <None Remove="Assets\Images\OdinSymbol.png" />
     <None Remove="Assets\Images\Thor.png" />
+    <None Remove="Assets\Images\ThorSymbol.png" />
     <None Remove="Assets\Images\Tyr.png" />
+    <None Remove="Assets\Images\TyrSymbol.png" />
     <None Remove="Assets\Images\Ymir.png" />
+    <None Remove="Assets\Images\Ymir2.png" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Assets\Images\Background Image.png" />
     <EmbeddedResource Include="Assets\Images\Balder.png" />
+    <EmbeddedResource Include="Assets\Images\Balder2.png" />
     <EmbeddedResource Include="Assets\Images\Bragi.png" />
+    <EmbeddedResource Include="Assets\Images\BragiSymbol.png" />
     <EmbeddedResource Include="Assets\Images\Freya.png" />
+    <EmbeddedResource Include="Assets\Images\FreyaSymbol.jpg" />
     <EmbeddedResource Include="Assets\Images\Freyr.png" />
+    <EmbeddedResource Include="Assets\Images\Freyr2.png" />
     <EmbeddedResource Include="Assets\Images\Frigg.png" />
+    <EmbeddedResource Include="Assets\Images\Frigg2.png" />
     <EmbeddedResource Include="Assets\Images\Heimdall.png" />
+    <EmbeddedResource Include="Assets\Images\HeimdallSymbol.png" />
     <EmbeddedResource Include="Assets\Images\Hel.png" />
+    <EmbeddedResource Include="Assets\Images\HelSymbol.png" />
     <EmbeddedResource Include="Assets\Images\Loki.png" />
+    <EmbeddedResource Include="Assets\Images\LokiSymbol.png" />
+    <EmbeddedResource Include="Assets\Images\OdinSymbol.png" />
     <EmbeddedResource Include="Assets\Images\Thor.png" />
+    <EmbeddedResource Include="Assets\Images\ThorSymbol.png" />
     <EmbeddedResource Include="Assets\Images\Tyr.png" />
+    <EmbeddedResource Include="Assets\Images\TyrSymbol.png" />
     <EmbeddedResource Include="Assets\Images\Ymir.png" />
+    <EmbeddedResource Include="Assets\Images\Ymir2.png" />
   </ItemGroup>
 
   <ItemGroup>

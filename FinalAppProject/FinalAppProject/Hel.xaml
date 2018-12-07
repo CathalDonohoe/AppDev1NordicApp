@@ -4,9 +4,9 @@
              x:Class="FinalAppProject.Hel">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout>
-                <Image x:Name="imageHel" Aspect="AspectFit" Source=""></Image>
-                <Label Text="Hel"
+            <StackLayout BackgroundColor="DarkGray">
+                <Image x:Name="imageHel" Aspect="AspectFit"></Image>
+                <Label Text="Hel" Font="Bold, 100"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
                 <Frame BackgroundColor="LawnGreen" HeightRequest="600" WidthRequest="150">
@@ -19,6 +19,7 @@
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
                 </Frame>
+                <Image x:Name="imageHelSymbol" Aspect="AspectFit"></Image>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

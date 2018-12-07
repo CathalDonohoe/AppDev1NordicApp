@@ -4,9 +4,9 @@
              x:Class="FinalAppProject.Thor">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout>
-                <Image x:Name="imageThor" Aspect="AspectFit" Source=""></Image>
-                <Label Text="Thor"
+            <StackLayout BackgroundColor="DarkGray">
+                <Image x:Name="imageThor" Aspect="AspectFit"></Image>
+                <Label Text="Thor" Font="Bold, 100"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
                 <Frame BackgroundColor="LightYellow" HeightRequest="600" WidthRequest="150">
@@ -26,6 +26,7 @@
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
                 </Frame>
+                <Image x:Name="imageThorSymbol" Aspect="AspectFit"></Image>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
