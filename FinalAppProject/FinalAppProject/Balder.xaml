@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalAppProject.Balder">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout>
+                    <Image x:Name="imageBalder" Aspect="AspectFit" Source=""></Image>
+                    <Label Text="Balder"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                    <Frame BackgroundColor="Yellow" HeightRequest="600" WidthRequest="150">
+                        <Label Text="The god of light, joy, purity, beauty, innocence, and reconciliation.
+                               &#10; Son of Odin and Frigg, he was loved by both gods and men and was considered 
+                               &#10; to be the best of the gods. He had a good character, was friendly, wise and eloquent,
+                               &#10; although he had little power. "
+                           XAlign="Center"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+                    </Frame>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

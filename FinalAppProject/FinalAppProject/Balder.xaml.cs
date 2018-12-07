@@ -9,15 +9,14 @@ using Xamarin.Forms.Xaml;
 
 namespace FinalAppProject
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Ymir : ContentPage
-    {
-        public Ymir()
-        {
-            InitializeComponent();
+	[XamlCompilation(XamlCompilationOptions.Compile)]
+	public partial class Balder : ContentPage
+	{
+		public Balder ()
+		{
+			InitializeComponent ();
             SetUpImages();
-        }
-
+		}
 
         private void SetUpImages()
         {
@@ -28,9 +27,9 @@ namespace FinalAppProject
              * two parameters are that directory path in that assembly
              */
 
-            string strFilename = "FinalAppProject.Assets.Images.Ymir.png";
+            string strFilename = "FinalAppProject.Assets.Images.Balder.png";
 
-            imageYmir.Source = ImageSource.FromResource(strFilename, assembly);
+            imageBalder.Source = ImageSource.FromResource(strFilename, assembly);
 
         }
     }

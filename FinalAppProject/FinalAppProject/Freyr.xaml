@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalAppProject.Freyr">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout>
+                    <Image x:Name="imageFreyr" Aspect="AspectFit" Source=""></Image>
+                    <Label Text="Freyr"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                    <Frame BackgroundColor="DeepSkyBlue" HeightRequest="600" WidthRequest="150">
+                        <Label Text="Freyr, also spelled Frey, also called Yngvi, in Norse mythology, the ruler 
+                               &#10; of peace and fertility, rain, and sunshine and the son of the sea god Njörd. 
+                               &#10; Although originally one of the Vanir tribe, he was included with the Aesir. Gerd, 
+                               &#10; daughter of the giant Gymir, was his wife. Worshiped especially in Sweden, he was 
+                               &#10; also well-known in Norway and Iceland. His sister and female counterpart, Freya, 
+                               &#10; was goddess of love, fertility, battle, and death. The boar was sacred to both. 
+                               &#10; Freyr and Freya figure in many lays and stories of medieval Iceland."
+                           XAlign="Center"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+                    </Frame>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

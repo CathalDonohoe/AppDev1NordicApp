@@ -10,19 +10,83 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\Images\Background Image.png" />
+    <None Remove="Assets\Images\Balder.png" />
+    <None Remove="Assets\Images\Bragi.png" />
+    <None Remove="Assets\Images\Freya.png" />
+    <None Remove="Assets\Images\Freyr.png" />
+    <None Remove="Assets\Images\Frigg.png" />
+    <None Remove="Assets\Images\Heimdall.png" />
+    <None Remove="Assets\Images\Hel.png" />
+    <None Remove="Assets\Images\Loki.png" />
+    <None Remove="Assets\Images\Odin.png" />
+    <None Remove="Assets\Images\Thor.png" />
+    <None Remove="Assets\Images\Tyr.png" />
+    <None Remove="Assets\Images\Ymir.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Images\Background Image.png" />
+    <EmbeddedResource Include="Assets\Images\Balder.png" />
+    <EmbeddedResource Include="Assets\Images\Bragi.png" />
+    <EmbeddedResource Include="Assets\Images\Freya.png" />
+    <EmbeddedResource Include="Assets\Images\Freyr.png" />
+    <EmbeddedResource Include="Assets\Images\Frigg.png" />
+    <EmbeddedResource Include="Assets\Images\Heimdall.png" />
+    <EmbeddedResource Include="Assets\Images\Hel.png" />
+    <EmbeddedResource Include="Assets\Images\Loki.png" />
+    <EmbeddedResource Include="Assets\Images\Thor.png" />
+    <EmbeddedResource Include="Assets\Images\Tyr.png" />
+    <EmbeddedResource Include="Assets\Images\Ymir.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.3.0.967583" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Assets\Images\Odin.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Balder.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Bragi.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Freya.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Freyr.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Frigg.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Heimdall.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Hel.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Loki.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="NordicGodsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Odin.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Thor.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Tyr.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Ymir.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Assets\Images\" />
   </ItemGroup>
 </Project>

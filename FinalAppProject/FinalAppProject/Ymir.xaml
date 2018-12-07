@@ -3,11 +3,25 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalAppProject.Ymir">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+        <ScrollView>
+            <StackLayout>
+                <Image x:Name="imageYmir" Aspect="AspectFit" Source=""></Image>
+                <Label Text="Ymir"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <Image Source="Ymir.png" />
-        </StackLayout>
+                <Frame BackgroundColor="LightBlue" HeightRequest="600" WidthRequest="150">
+                    <Label Text="Aurgelmir, also called Ymir, in Norse mythology, the first being, 
+                            &#10; a giant who was created from the drops of water that formed when the ice
+                            &#10; of Niflheim met the heat of Muspelheim. Aurgelmir was the father of all
+                            &#10; the giants; a male and a female grew under his arm, and his legs produced a six-headed son.
+                            &#10;
+                            &#10;
+                            &#10; "
+                           XAlign="Center"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

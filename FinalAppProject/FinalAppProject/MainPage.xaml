@@ -6,13 +6,11 @@
 
     <StackLayout HorizontalOptions="Center"
                  VerticalOptions="Center">
-        <Entry x:Name="entUser" Placeholder="Username"
-              Margin="10, 10, 10, 5"/>
-        <Entry x:Name="entPassword" Placeholder="Password"
-               IsPassword="True" Margin="10, 5, 10, 10"/>
-        <Button x:Name="btnLogin" Text="Login"
+        <Button x:Name="btnLogin" Text="Click to enter"
                Margin="10, 5, 10, 10"
                Clicked="btnLogin_Clicked"/>
     </StackLayout>
+    
+
 
 </ContentPage>
