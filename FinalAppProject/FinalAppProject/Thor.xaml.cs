@@ -15,6 +15,22 @@ namespace FinalAppProject
 		public Thor ()
 		{
 			InitializeComponent ();
+            SetUpImages();
 		}
-	}
+
+        private void SetUpImages()
+        {
+            // get the assembly
+            var assembly = typeof(MainPage);
+            /*
+             * need a directory path - ImageSample/Assets/Images/oogway.jpg
+             * two parameters are that directory path in that assembly
+             */
+
+            string strFilename = "FinalAppProject.Assets.Images.Thor.png";
+
+            imageThor.Source = ImageSource.FromResource(strFilename, assembly);
+
+        }
+    }
 }

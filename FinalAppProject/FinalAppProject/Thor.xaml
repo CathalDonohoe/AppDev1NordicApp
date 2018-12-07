@@ -3,10 +3,30 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalAppProject.Thor">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+        <ScrollView>
+            <StackLayout>
+                <Image x:Name="imageThor" Aspect="AspectFit" Source=""></Image>
+                <Label Text="Thor"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+                <Frame BackgroundColor="LightYellow" HeightRequest="600" WidthRequest="150">
+                    <Label Text="Thor is the Norse god of thunder. He is generally depicted as red-headed and bearded. He is a son of Odin and Jord, 
+                           &#10; and one of the most powerful gods. He is married to Sif, a fertility goddess. His mistress is the giantess Jarnsaxa 
+                           &#10; ('iron cutlass'), and their sons are Magni and Modi and his daughter is Thrud. Thor is helped by Thialfi, his servant 
+                           &#10; and the messenger of the gods. who is Hermes in Greek Mythology and Mercury in Roman Mythology. Thor was usually portrayed 
+                           &#10; as a large, powerful man with a red beard and eyes of lighting. Despite his ferocious appearance, he was very popular as the 
+                           &#10; protector of both gods and humans against the forces of evil. He even surpassed his father Odin in popularity because, contrary
+                           &#10; to Odin, he did not require human sacrifices. In his temple at Uppsala he was shown standing with Odin at his right side. This 
+                           &#10; temple was replaced by a Christian church in 1080. The Norse believed that during a thunderstorm, Thor rode through the heavens
+                           &#10; on his chariot pulled by the goats Tanngrisni ('gap-tooth') and Tanngnost ('tooth grinder'). Lightning flashed whenever he threw
+                           &#10; his hammer Mjollnir. Thor wears the belt Megingjard which doubles his already considerable strength. His hall is Bilskirnir, 
+                           &#10; which is located in the region Thrudheim ('place of might'). His greatest enemy is Jormungand, the Midgard Serpent. At the day 
+                           &#10; of Ragnarok, Thor will kill this serpent but will die from its poison. His sons will inherit his hammer after his death."
+                           XAlign="Center"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

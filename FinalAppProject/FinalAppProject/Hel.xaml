@@ -3,10 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalAppProject.Hel">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+        <ScrollView>
+            <StackLayout>
+                <Image x:Name="imageHel" Aspect="AspectFit" Source=""></Image>
+                <Label Text="Hel"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+                <Frame BackgroundColor="LawnGreen" HeightRequest="600" WidthRequest="150">
+                    <Label Text="In Norse mythology, Hel features as the goddess of the underworld. She was sent by Odin
+                           &#10; to Helheim/Niflheim to preside over the spirits of the dead, except for those who were killed
+                           &#10; in battle and went to Valhalla. It was her job to determine the fate of the souls who entered her realm.
+                           &#10; Hel is often depicted with her bones on the outside of her body rather than the inside. She is typically 
+                           &#10; portrayed in black and white, as well, showing that she represents both sides of all spectrums."
+                           XAlign="Center"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

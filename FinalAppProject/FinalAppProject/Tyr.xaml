@@ -3,10 +3,24 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalAppProject.Tyr">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+        <ScrollView>
+            <StackLayout>
+                <Image x:Name="imageTyr" Aspect="AspectFit" Source=""></Image>
+                <Label Text="Tyr"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+                <Frame BackgroundColor="SaddleBrown" HeightRequest="600" WidthRequest="150">
+                    <Label Text="The original Germanic god of war and the patron god of justice, the precursor of Odin. At the time of the Vikings, Tyr had to 
+                           &#10; make way for Odin, who became the god of war himself. Tyr was by then regarded as Odin's son (or possibly of the giant Hymir). 
+                           &#10; He is the boldest of the gods, who inspires courage and heroism in battle. Tyr is represented as a man with one hand, because 
+                           &#10; his right hand was bitten off by the gigantic wolf Fenrir (in old-Norse, the wrist was called 'wolf-joint'). His attribute is a
+                           &#10; spear; the symbol of justice, as well as a weapon. At the day of Ragnarok, Tyr will kill the hound Garm, the guardian of the hell, 
+                           &#10; but will die from the wounds inflicted by the animal. In later mythology, 'Tyr' became to mean 'god'. He is also known as T'waz, Tiw and Ziu."
+                           XAlign="Center"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

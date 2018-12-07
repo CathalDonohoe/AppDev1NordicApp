@@ -15,6 +15,22 @@ namespace FinalAppProject
 		public Hel ()
 		{
 			InitializeComponent ();
+            SetUpImages();
 		}
-	}
+
+        private void SetUpImages()
+        {
+            // get the assembly
+            var assembly = typeof(MainPage);
+            /*
+             * need a directory path - ImageSample/Assets/Images/oogway.jpg
+             * two parameters are that directory path in that assembly
+             */
+
+            string strFilename = "FinalAppProject.Assets.Images.Hel.png";
+
+            imageHel.Source = ImageSource.FromResource(strFilename, assembly);
+
+        }
+    }
 }

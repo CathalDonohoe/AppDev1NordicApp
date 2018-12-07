@@ -3,10 +3,31 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalAppProject.Odin">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+        <ScrollView>
+            <StackLayout>
+                <Image x:Name="imageOdin" Aspect="AspectFit" Source=""></Image>
+                <Label Text="Odin"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+                <Frame BackgroundColor="Red" HeightRequest="600" WidthRequest="150">
+                    <Label Text="Odin, also called Wodan, Woden, or Wotan, one of the principal gods in Norse mythology. His exact nature and role, however,
+                           &#10; are difficult to determine because of the complex picture of him given by the wealth of archaeological and literary sources. 
+                           &#10; The Roman historian Tacitus stated that the Teutons worshiped Mercury; and because dies Mercurii ('Mercury's day') was identified 
+                           &#10; with Wednesday ('Woden's day'), there is little doubt that the god Woden (the earlier form of Odin) was meant. Though Woden was
+                           &#10; worshiped preeminently, there is not sufficient evidence of his cult to show whether it was practiced by all the Teutonic tribes or
+                           &#10; to enable conclusions to be drawn about the nature of the god. Later literary sources, however, indicate that at the end of the pre-Christian
+                           &#10; period Odin was the principal god in Scandinavia.
+                           &#10; 
+                           &#10; From earliest times Odin was a war god, and he appeared in heroic literature as the protector of heroes; fallen warriors joined
+                           &#10; him in Valhalla. The wolf and the raven were dedicated to him. His magical horse, Sleipnir, had eight legs, teeth inscribed with runes, 
+                           &#10; and the ability to gallop through the air and over the sea. Odin was the great magician among the gods and was associated with runes. He was 
+                           &#10; also the god of poets. In outward appearance he was a tall, old man, with flowing beard and only one eye (the other he gave in exchange for
+                           &#10; wisdom). He was usually depicted wearing a cloak and a wide-brimmed hat and carrying a spear."
+                           XAlign="Center"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
