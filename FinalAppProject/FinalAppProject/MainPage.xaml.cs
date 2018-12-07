@@ -12,11 +12,27 @@ namespace FinalAppProject
         public MainPage()
         {
             InitializeComponent();
+            SetUpImages();
         }
 
         private void btnLogin_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new NordicGodsPage());
+        }
+
+        private void SetUpImages()
+        {
+            // get the assembly
+            var assembly = typeof(MainPage);
+            /*
+             * need a directory path - ImageSample/Assets/Images/oogway.jpg
+             * two parameters are that directory path in that assembly
+             */
+
+            string strFilename = "FinalAppProject.Assets.Images.Background Image.png";
+
+            bckgrndImage.Source = ImageSource.FromResource(strFilename, assembly);
+
         }
     }
 }

@@ -6,6 +6,7 @@
 
     <StackLayout HorizontalOptions="Center"
                  VerticalOptions="Center">
+        <Image x:Name="bckgrndImage" Aspect="Fill"></Image>
         <Button x:Name="btnLogin" Text="Click to enter"
                Margin="10, 5, 10, 10"
                Clicked="btnLogin_Clicked"/>
