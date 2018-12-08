@@ -29,6 +29,7 @@
     <None Remove="Assets\Images\LokiSymbol.png" />
     <None Remove="Assets\Images\Odin.png" />
     <None Remove="Assets\Images\OdinSymbol.png" />
+    <None Remove="Assets\Images\RagnarokImage1.jpg" />
     <None Remove="Assets\Images\Thor.png" />
     <None Remove="Assets\Images\ThorSymbol.png" />
     <None Remove="Assets\Images\Tyr.png" />
@@ -56,6 +57,7 @@
     <EmbeddedResource Include="Assets\Images\Loki.png" />
     <EmbeddedResource Include="Assets\Images\LokiSymbol.png" />
     <EmbeddedResource Include="Assets\Images\OdinSymbol.png" />
+    <EmbeddedResource Include="Assets\Images\RagnarokImage1.jpg" />
     <EmbeddedResource Include="Assets\Images\Thor.png" />
     <EmbeddedResource Include="Assets\Images\ThorSymbol.png" />
     <EmbeddedResource Include="Assets\Images\Tyr.png" />
@@ -77,6 +79,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Bragi.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Contact.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Freya.xaml">
@@ -101,6 +106,12 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Odin.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Ragnarok.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Ragnarok1.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Thor.xaml">

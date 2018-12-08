@@ -6,7 +6,7 @@
   <!--Pages can be added as references or inline-->
     
 
-    <!-- Adding the nordic gosd tabs-->
+    <!-- Adding the nordic gods tabs-->
     <NordicGodsPage:Ymir Title="Ymir"/>
     <NordicGodsPage:Frigg Title="Frigg"/>
     <NordicGodsPage:Odin Title="Odin"/>

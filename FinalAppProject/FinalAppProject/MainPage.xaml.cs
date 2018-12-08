@@ -15,7 +15,7 @@ namespace FinalAppProject
             SetUpImages();
         }
 
-        private void btnLogin_Clicked(object sender, EventArgs e)
+        private void btnGods_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new NordicGodsPage());
         }
@@ -33,6 +33,16 @@ namespace FinalAppProject
 
             bckgrndImage.Source = ImageSource.FromResource(strFilename, assembly);
 
+        }
+
+        private void btnRagnarok_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Ragnarok());
+        }
+
+        private void btnContact_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Contact());
         }
     }
 }

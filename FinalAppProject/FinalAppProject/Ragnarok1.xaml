@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalAppProject.Ragnarok1">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout BackgroundColor="DarkGray">
+            
+            <Label Text="The Explanantion of Ragnarok" Font="Bold, 100"
+                   VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"/>
+            
+            <Label Text="Ragnarok is the cataclysmic destruction of the cosmos and everything in it – even the gods. When Norse mythology is considered 
+                   &#10; as a chronological set of tales, the story of Ragnarok naturally comes at the very end. For the Vikings, the myth of Ragnarok
+                   &#10; was a prophecy of what was to come at some unspecified and unknown time in the future, but it had profound ramifications for 
+                   &#10; how the Vikings understood the world in their own time. We'll explore some of those ramifications below.
+                   &#10;
+                   &#10; The word 'Ragnarok' comes from Old Norse Ragnarök, 'Fate of the Gods.' In an apparent play on words, some pieces of Old Norse 
+                   &#10; literature also refer to it as Ragnarøkkr, 'Twilight of the Gods.' The event was also occasionally referred to as aldar rök, 
+                   &#10; 'fate of mankind,' and a host of other names."
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Image x:Name="RagnarokImage1" Aspect="AspectFit"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"></Image>
+
+            
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
