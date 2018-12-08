@@ -13,8 +13,10 @@
     <None Remove="Assets\Images\Background Image.png" />
     <None Remove="Assets\Images\Balder.png" />
     <None Remove="Assets\Images\Balder2.png" />
+    <None Remove="Assets\Images\Balder3.jpg" />
     <None Remove="Assets\Images\Bragi.png" />
-    <None Remove="Assets\Images\BragiSymbol.png" />
+    <None Remove="Assets\Images\Bragi2.jpg" />
+    <None Remove="Assets\Images\Bragi3.jpg" />
     <None Remove="Assets\Images\Freya.png" />
     <None Remove="Assets\Images\FreyaSymbol.jpg" />
     <None Remove="Assets\Images\Freyr.png" />
@@ -42,8 +44,10 @@
     <EmbeddedResource Include="Assets\Images\Background Image.png" />
     <EmbeddedResource Include="Assets\Images\Balder.png" />
     <EmbeddedResource Include="Assets\Images\Balder2.png" />
+    <EmbeddedResource Include="Assets\Images\Balder3.jpg" />
     <EmbeddedResource Include="Assets\Images\Bragi.png" />
-    <EmbeddedResource Include="Assets\Images\BragiSymbol.png" />
+    <EmbeddedResource Include="Assets\Images\Bragi2.jpg" />
+    <EmbeddedResource Include="Assets\Images\Bragi3.jpg" />
     <EmbeddedResource Include="Assets\Images\Freya.png" />
     <EmbeddedResource Include="Assets\Images\FreyaSymbol.jpg" />
     <EmbeddedResource Include="Assets\Images\Freyr.png" />

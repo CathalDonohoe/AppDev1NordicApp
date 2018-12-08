@@ -5,24 +5,37 @@
     <ContentPage.Content>
         <StackLayout>
             <ScrollView>
-                <StackLayout BackgroundColor="DarkGray">
+                <StackLayout BackgroundColor="Purple">
                     <Image x:Name="imageBragi" Aspect="AspectFit"></Image>
                     <Label Text="Bragi" Font="Bold, 100"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-                    <Frame BackgroundColor="Purple" HeightRequest="600" WidthRequest="150">
+                   
                         <Label Text="The god of eloquence and poetry, and the patron of skalds (poets) 
                                &#10; in Norse mythology. He is regarded as a son of Odin and Frigg. Runes 
                                 &#10; were carved on his tongue and he inspired poetry in humans by letting 
-                                &#10; them drink from the mead of poetry. Bragi is married to Idun, the goddess 
-                                &#10; of eternal youth. Oaths were sworn over the Bragarfull ('Cup of Bragi') 
+                                &#10; them drink from the mead of poetry. Oaths were sworn over the Bragarfull ('Cup of Bragi') 
                                 &#10; and drinks were taken from it in honor of a dead king. Before a king ascended
                                 &#10; the throne, he drank from such a cup."
+                               Font="20"
                            XAlign="Center"
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
-                    </Frame>
-                    <Image x:Name="imageBragiSymbol" Aspect="AspectFit"></Image>
+                    <Image x:Name="imageBragi2" Aspect="AspectFit"></Image>
+                    <Label Text="Unlike a lot of norse gods, he is not a warrior. His talents lie in diplomacy and peace talks.
+                           &#10; It is said that he travels the nine realms and talks/sings of piece and cooperation. He is husband 
+                           &#10; to Idun, keeper of the gods orchard and the golden apples which keep the gods young and healthy. He is born
+                           &#10; out of selfish reasons though. Odin wants the 'Mead of Poetry', which is guarded by the giant Suttung and his
+                           &#10; daughter Gunnlod. They keep the Mead in a cave, but Odin manages to get into the cave somehow, disguised as a 
+                           &#10; snake. He presents himself to Gunnlod as a handsome lover and drinks all the Mead while staying with her for three 
+                           &#10; nights. The product of these three nights of love is Bragi, who is sent to live with his father and due to the Mead 
+                           &#10; of Poetry, turns to the god of the golden tongue that he is."
+                           Font="20"
+                           XAlign="Center"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+                    <Image x:Name="imageBragi3" Aspect="AspectFit"></Image>
+                    
                 </StackLayout>
             </ScrollView>
         </StackLayout>

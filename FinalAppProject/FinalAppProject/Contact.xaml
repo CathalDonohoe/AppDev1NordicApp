@@ -6,13 +6,20 @@
         <StackLayout BackgroundColor="DarkGray">
             <Label Text="Welcome to My Contact Page"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <Label Text="Email: cdonohoe1374@gmail.com"
+                HorizontalOptions="CenterAndExpand"
+                   Font="Bold, 100"/>
+            
+            <Label Text="If you have any problems or needs to contact me please dont hesitate to get in touch."
                    VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <Label Text="Mobile: 0877499645"
+                HorizontalOptions="CenterAndExpand"
+                   Font="50"/>
+            
+            <Label Text="Email: cdonohoe1374@gmail.com
+                   &#10; Mobile: 0877499645"
                    VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand"
+                   Font="50"/>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
