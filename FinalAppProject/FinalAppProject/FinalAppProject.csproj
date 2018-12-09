@@ -18,9 +18,12 @@
     <None Remove="Assets\Images\Bragi2.jpg" />
     <None Remove="Assets\Images\Bragi3.jpg" />
     <None Remove="Assets\Images\Freya.png" />
+    <None Remove="Assets\Images\Freya2.jpg" />
     <None Remove="Assets\Images\FreyaSymbol.jpg" />
     <None Remove="Assets\Images\Freyr.png" />
     <None Remove="Assets\Images\Freyr2.png" />
+    <None Remove="Assets\Images\freyr3.jpg" />
+    <None Remove="Assets\Images\freyr4.jpg" />
     <None Remove="Assets\Images\Frigg.png" />
     <None Remove="Assets\Images\Frigg2.png" />
     <None Remove="Assets\Images\Heimdall.png" />
@@ -49,9 +52,12 @@
     <EmbeddedResource Include="Assets\Images\Bragi2.jpg" />
     <EmbeddedResource Include="Assets\Images\Bragi3.jpg" />
     <EmbeddedResource Include="Assets\Images\Freya.png" />
+    <EmbeddedResource Include="Assets\Images\Freya2.jpg" />
     <EmbeddedResource Include="Assets\Images\FreyaSymbol.jpg" />
     <EmbeddedResource Include="Assets\Images\Freyr.png" />
     <EmbeddedResource Include="Assets\Images\Freyr2.png" />
+    <EmbeddedResource Include="Assets\Images\Freyr3.jpg" />
+    <EmbeddedResource Include="Assets\Images\Freyr4.jpg" />
     <EmbeddedResource Include="Assets\Images\Frigg.png" />
     <EmbeddedResource Include="Assets\Images\Frigg2.png" />
     <EmbeddedResource Include="Assets\Images\Heimdall.png" />

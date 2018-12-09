@@ -5,27 +5,46 @@
     <ContentPage.Content>
         <StackLayout>
             <ScrollView>
-                <StackLayout BackgroundColor="DarkGray">
+                <StackLayout BackgroundColor="Pink">
                     <Image x:Name="imageFreya" Aspect="AspectFit"></Image>
                     <Label Text="Freya" Font="Bold, 100"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-                    <Frame BackgroundColor="Pink" HeightRequest="600" WidthRequest="150">
                         <Label Text="In Norse mythology, Freya is a goddess of love and fertility, and the most 
                                &#10; beautiful and propitious of the goddesses. She is the patron goddess of crops
                                &#10; and birth, the symbol of sensuality and was called upon in matters of love. She 
                                &#10; loves music, spring and flowers, and is particularly fond of the elves (fairies). 
-                               &#10; Freya is one of the foremost goddesses of the Vanir.
-                               &#10; 
-                               &#10; Goddess of sex, battle, and pleasure, most beautiful and desirable of white-armed women,
-                               &#10; Freyja was sister to the male fertility god Freyr. Freyja had unusual parity with Odin, 
-                               &#10; for they divided the heroic dead amongst themselves. Half went to live eternally in Odin's 
-                               &#10; hall, and half in Freyja's hall Sessrumnir- and the goddess got first pick."
+                               &#10; Freya is one of the foremost goddesses of the Vanir."
+                           Font="20"
                            XAlign="Center"
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
-                    </Frame>
+                    <Image x:Name="imageFreya2" Aspect="AspectFit"></Image>
+                    <Label Text="Goddess of sex, battle, and pleasure, most beautiful and desirable of white-armed women,
+                               &#10; Freya was sister to the male fertility god Freyr. Freya had unusual parity with Odin, 
+                               &#10; for they divided the heroic dead amongst themselves. Half went to live eternally in Odin's 
+                               &#10; hall, and half in Freya's hall Sessrumnir- and the goddess got first pick."
+                           Font="20"
+                           XAlign="Center"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+
+
                     <Image x:Name="imageFreyaSymbol" Aspect="AspectFit"></Image>
+
+
+                    <Label Text="Freya is married to the God Odr, she has two children with Odr, their names are Hnoss and Gersimi. 
+                               &#10; Some of the weekdays in Norse mythology originate from some of the Gods and Goddesses, and Freya might
+                               &#10; be associated with the day Friday, but there are conflicting sources so it could also be the Goddess Frigg.
+                               &#10;
+                               &#10; Freya is incredibly beautiful and she has many admirers, not just among the Gods and Goddesses but also among
+                               &#10; the dwarves and giants. She loves jewelry and other fine materials and she has quite often used her beauty to 
+                               &#10; get the jewelry she desires. a big passion for poems and loves to sit and listen to songs for many hours. Freya 
+                               &#10; has an unusual gift when she cries her tears turns into amber or gold."
+                           Font="20"
+                           XAlign="Center"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
                 </StackLayout>
             </ScrollView>
         </StackLayout>
