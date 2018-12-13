@@ -4,27 +4,30 @@
              x:Class="FinalAppProject.Frigg">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout BackgroundColor="DarkGray">
+            <StackLayout BackgroundColor="DarkCyan">
                 <Image x:Name="imageFrigg" Aspect="AspectFit"></Image>
                 <Label Text="Frigg" Font="Bold, 100"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-                <Frame BackgroundColor="DarkCyan" HeightRequest="600" WidthRequest="150">
-                    <Label Text="As the wife of Odin, Frigg is one of the foremost goddesses of Norse mythology. 
-                           &#10; She is the patron of marriage and motherhood, and the goddess of love and fertility. 
-                           &#10; In that aspect she shows many similarities with Freya, of whom she possibly is a different form.
-                           &#10; 
-                           &#10; She has a reputation of knowing every person's destiny, but never unveils it. As the mother of Balder,
-                           &#10; she tried to prevent his death by extracting oaths from every object in nature, but forgot the mistletoe. 
-                           &#10; And by a fig made from mistletoe Balder died.
-                           &#10; 
-                           &#10; As Woden/Odin gave his name to Wednesday, and Thunor/Thor to Thursday, so Frigg is remembered in Friday. 
-                           &#10; Frigg was the direct daughter of Fjorgyn, the Goddess of Earth. She kept her own hall, called Fensalir. 
-                           &#10; Women prayed to her for children and prayed again for safe labor and delivery."
+                <Label Text="As the wife of Odin, Frigg is one of the foremost goddesses of Norse mythology. She is the patron of marriage and motherhood, and the goddess of love and fertility. In that aspect she shows many similarities with Freya, of whom she possibly is a different form."
+                           
+                           
+                           FontSize="Large"
                            XAlign="Center"
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
-                </Frame>
+
+                <Label Text="She has a reputation of knowing every person's destiny, but never unveils it. As the mother of Balder, she tried to prevent his death by extracting oaths from every object in nature, but forgot the mistletoe. And by a fig made from mistletoe Balder died."
+                    FontSize="Large"
+                           XAlign="Center"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+
+                <Label Text="As Woden/Odin gave his name to Wednesday, and Thunor/Thor to Thursday, so Frigg is remembered in Friday. Frigg was the direct daughter of Fjorgyn, the Goddess of Earth. She kept her own hall, called Fensalir. Women prayed to her for children and prayed again for safe labor and delivery."
+                    FontSize="Large"
+                           XAlign="Center"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
                 <Image x:Name="imageFrigg2" Aspect="AspectFit"></Image>
             </StackLayout>
         </ScrollView>

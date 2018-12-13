@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalAppProject.Contact">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout BackgroundColor="DarkGray">
             <Label Text="Welcome to My Contact Page"
                 VerticalOptions="CenterAndExpand" 
@@ -12,14 +13,15 @@
             <Label Text="If you have any problems or needs to contact me please dont hesitate to get in touch."
                    VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"
-                   Font="50"/>
+                   FontSize="Large"/>
             
             <Label Text="Email: cdonohoe1374@gmail.com
                    &#10; Mobile: 0877499645"
                    VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"
-                   Font="50"/>
+                   FontSize="Large"/>
             
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

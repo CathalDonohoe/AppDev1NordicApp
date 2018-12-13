@@ -5,13 +5,14 @@
              x:Class="FinalAppProject.MainPage">
 
     <ScrollView>
+        <StackLayout BackgroundColor="Black"
+                     HorizontalOptions="FillAndExpand"
+                     VerticalOptions="FillAndExpand">
+            <Image x:Name="bckgrndImage" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Image>
 
-            <StackLayout HorizontalOptions="Center"
-                     VerticalOptions="Center"
+            <StackLayout HorizontalOptions="FillAndExpand"
+                     VerticalOptions="FillAndExpand"
                      BackgroundColor="Black">
-                <Image x:Name="bckgrndImage" Aspect="AspectFit"
-                   HorizontalOptions="Center"
-                   VerticalOptions="Center"></Image>
 
 
 
@@ -30,7 +31,9 @@
                         Clicked="btnContact_Clicked"
                         BackgroundColor="white"/>
 
-            </StackLayout>
+        </StackLayout>
+        </StackLayout>
+
     </ScrollView>
 
 
