@@ -40,7 +40,7 @@ namespace FinalAppProject
             Navigation.PushAsync(new Ragnarok());
         }
 
-        private void btnContact_Clicked(object sender, EventArgs e)
+        private void btnAbout_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new Contact());
         }

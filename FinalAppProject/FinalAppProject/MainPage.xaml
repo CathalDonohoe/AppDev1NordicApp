@@ -16,20 +16,23 @@
 
 
 
-                <Button x:Name="btnGods" Text="Click to Enter Gods Page"
-                   Margin="10, 5, 10, 10"
+                <Button x:Name="btnGods" Text="Gods"
+                   HorizontalOptions="Center"
                    Clicked="btnGods_Clicked"
-                            BackgroundColor="White"/>
+                   BackgroundColor="White"
+                        BorderColor="Red"/>
 
-                <Button x:Name="btnRagnarok" Text="Click to Enter Ragnarok Page"
-                        Margin="10, 5, 10, 10"
+                <Button x:Name="btnRagnarok" Text="Ragnarok"
+                        HorizontalOptions="Center"
                         Clicked="btnRagnarok_Clicked"
-                        BackgroundColor="White"/>
+                        BackgroundColor="White"
+                        BorderColor="Red"/>
 
-                <Button x:Name="btnContact" Text="Click to Enter Contact Page"
-                        Margin="10, 5, 10, 10"
-                        Clicked="btnContact_Clicked"
-                        BackgroundColor="white"/>
+                <Button x:Name="btnAbout" Text="About"
+                        HorizontalOptions="Center"
+                        Clicked="btnAbout_Clicked"
+                        BackgroundColor="white"
+                        BorderColor="Red"/>
 
         </StackLayout>
         </StackLayout>
