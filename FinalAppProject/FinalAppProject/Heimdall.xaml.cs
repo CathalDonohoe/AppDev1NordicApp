@@ -17,7 +17,8 @@ namespace FinalAppProject
 			InitializeComponent ();
             SetUpImages();
             SetUpImages2();
-		}
+            SetUpImages3();
+        }
 
         private void SetUpImages()
         {
@@ -46,6 +47,21 @@ namespace FinalAppProject
             string strFilename = "FinalAppProject.Assets.Images.HeimdallSymbol.png";
 
             imageHeimdallSymbol.Source = ImageSource.FromResource(strFilename, assembly);
+
+        }
+
+        private void SetUpImages3()
+        {
+            // get the assembly
+            var assembly = typeof(MainPage);
+            /*
+             * need a directory path - ImageSample/Assets/Images/oogway.jpg
+             * two parameters are that directory path in that assembly
+             */
+
+            string strFilename = "FinalAppProject.Assets.Images.Heimdall2.jpg";
+
+            imageHeimdall2.Source = ImageSource.FromResource(strFilename, assembly);
 
         }
     }

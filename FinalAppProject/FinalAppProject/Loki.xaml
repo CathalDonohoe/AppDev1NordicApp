@@ -4,36 +4,37 @@
              x:Class="FinalAppProject.Loki">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout BackgroundColor="DarkGray">
+            <StackLayout BackgroundColor="Crimson">
                 <Image x:Name="imageLoki" Aspect="AspectFit"></Image>
                 <Label Text="Loki" Font="Bold, 100"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-                <Frame BackgroundColor="Crimson" HeightRequest="600" WidthRequest="150">
-                    <Label Text="The most unpredictable and certainly the most dangerous god in the Northern pantheon was Loki. His
-                           &#10; activities ran from the merely mischievous to the blatantly malicious. Supremely clever, Loki ensnared 
-                           &#10; everyone in complicated problems, to which he always supplied a remedy - through his solution often engendered
-                           &#10; even greater troubles. His parents were both giants (the perpetual enemies of the gods.)
-                           &#10; Loki is an immensely powerful magician, and shares with Odin the ability to sex and shape shift at will. Loki was 
-                           &#10; fair of face, and took many lovers, despite his constant criticism of goddesses who did the same. His wife is Sigyn, 
-                           &#10; who stayed loyal to him, even when the gods punished him for the death of Balder. Loki's mistress is the giantess Angrboda. 
-                           &#10; With her he is the father of three monsters. He had some unusual children, including the huge wolf borne from Loki's brief 
-                           &#10; dalliance with a giantess. Loki was the father (and in few instances the mother) of many creatures, men and monsters. Having 
-                           &#10; liaisons with giantesses was nothing unusual for gods in Norse mythology - both Odin and Freyr are good examples; and since 
-                           &#10; Loki was actually a giant himself, there is nothing unusual about this activity. It is Loki who begins the chain of events 
-                           &#10; that leads to the destruction of the gods. He does this by causing the death of the beautiful Baldr, Frigg's son, who in his 
-                           &#10; goodness and perfection embodies the attainment of every desirable quality. Baldr's death plunges all of Asgard into mourning. 
-                           &#10; Yet Loki feels no remorse, and in fact relishes every opportunity to exert his contrary nature. Loki was chained to three large
-                           &#10; boulders; one under his shoulders, one under his loins and one under his knees. A poisonous snake was placed above his head. 
-                           &#10; The dripping venom that lands on him is caught by Sigyn in a bowl. But every now and then, when the bowl is filled to the brim,
-                           &#10; she has to leave him to empty it. Then the poison that falls on Loki's face makes him twist in pain, causing earthquakes. After
-                           &#10; Frigg had gone to great lengths to bring Baldr back to the land of the living by asking all beings to weep for his return, Loki 
-                           &#10; (in the guise of an old female giant) steadfastly refused to shed a single tear for the slain god. Thus Baldr was consigned to the
-                           &#10; realms of the dead, under the governance of Lady Hel. "
-                           XAlign="Center"
+                
+                
+                <Label Text="The most unpredictable and certainly the most dangerous god in the Northern pantheon was Loki. His activities ran from the merely mischievous to the blatantly malicious. Supremely clever, Loki ensnared everyone in complicated problems, to which he always supplied a remedy - through his solution often engendered even greater troubles. His parents were both giants (the perpetual enemies of the gods.) Loki is an immensely powerful magician, and shares with Odin the ability to sex and shape shift at will. Loki was fair of face, and took many lovers, despite his constant criticism of goddesses who did the same. His wife is Sigyn, who stayed loyal to him, even when the gods punished him for the death of Balder. Loki's mistress is the giantess Angrboda."
+                       FontSize="Large"    
+                       XAlign="Center"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+
+
+                <Image x:Name="imageLoki2" Aspect="AspectFit"></Image>
+                
+                <Label Text="With her he is the father of three monsters. He had some unusual children, including the huge wolf borne from Loki's brief dalliance with a giantess. Loki was the father (and in few instances the mother) of many creatures, men and monsters. Having liaisons with giantesses was nothing unusual for gods in Norse mythology - both Odin and Freyr are good examples; and since Loki was actually a giant himself, there is nothing unusual about this activity. It is Loki who begins the chain of events that leads to the destruction of the gods. He does this by causing the death of the beautiful Baldr, Frigg's son, who in his goodness and perfection embodies the attainment of every desirable quality. Baldr's death plunges all of Asgard into mourning. "
+                       FontSize="Large"    
+                       XAlign="Center"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+
+
+                <Image x:Name="imageLoki3" Aspect="AspectFit"></Image>
+                
+                <Label Text="Yet Loki feels no remorse, and in fact relishes every opportunity to exert his contrary nature. Loki was chained to three large boulders; one under his shoulders, one under his loins and one under his knees. A poisonous snake was placed above his head. The dripping venom that lands on him is caught by Sigyn in a bowl. But every now and then, when the bowl is filled to the brim, she has to leave him to empty it. Then the poison that falls on Loki's face makes him twist in pain, causing earthquakes. After Frigg had gone to great lengths to bring Baldr back to the land of the living by asking all beings to weep for his return, Loki (in the guise of an old female giant) steadfastly refused to shed a single tear for the slain god. Thus Baldr was consigned to the realms of the dead, under the governance of Lady Hel. "
+                       FontSize="Large"    
+                       XAlign="Center"
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
-                </Frame>
+
                 <Image x:Name="imageLokiSymbol" Aspect="AspectFit"></Image>
             </StackLayout>
         </ScrollView>

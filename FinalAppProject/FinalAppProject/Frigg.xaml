@@ -23,6 +23,8 @@
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
 
+                <Image x:Name="imageFrigg3" Aspect="AspectFit"></Image>
+
                 <Label Text="As Woden/Odin gave his name to Wednesday, and Thunor/Thor to Thursday, so Frigg is remembered in Friday. Frigg was the direct daughter of Fjorgyn, the Goddess of Earth. She kept her own hall, called Fensalir. Women prayed to her for children and prayed again for safe labor and delivery."
                     FontSize="Large"
                            XAlign="Center"

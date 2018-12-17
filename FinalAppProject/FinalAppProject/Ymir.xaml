@@ -4,24 +4,36 @@
              x:Class="FinalAppProject.Ymir">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout BackgroundColor="DarkGray">
+            <StackLayout BackgroundColor="LightBlue">
                 <Image x:Name="imageYmir" Aspect="AspectFit"></Image>
                 <Label Text="Ymir" Font="Bold, 100"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-                <Frame BackgroundColor="LightBlue" HeightRequest="600" WidthRequest="150">
-                    <Label Text="Aurgelmir, also called Ymir, in Norse mythology, the first being, 
-                            &#10; a giant who was created from the drops of water that formed when the ice
-                            &#10; of Niflheim met the heat of Muspelheim. Aurgelmir was the father of all
-                            &#10; the giants; a male and a female grew under his arm, and his legs produced a six-headed son.
-                            &#10;
-                            &#10;
-                            &#10; "
+                
+                
+                    <Label Text="Aurgelmir, also called Ymir, in Norse mythology, the first being, a giant who was created from the drops of water that formed when the ice of Niflheim met the heat of Muspelheim. Aurgelmir was the father of all the giants; a male and a female grew under his arm, and his legs produced a six-headed son. "
+                           FontSize="Large"
                            XAlign="Center"
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
-                </Frame>
+                
                 <Image x:Name="imageYmir2" Aspect="AspectFit"></Image>
+
+
+                <Label Text="In the Norse creation myth, the story starts as many other creation stories do. In the beginning, there was nothing. There was no sand, sea or waves. Neither heaven nor Earth existed. However, long before the Earth was made, Niflheim was created. It contained a spring that flowed into 12 rivers. In the southern part was Muspell, which was incredibly hot and guarded by a giant named Surt who carried a flaming sword. In the north, there was Ginnungagap. The rivers froze here, and everything was covered in ice. The warm air of Muspell reached the coldness of Ginnungagap, causing the ice to thaw and drip. The drops thickened and began to form into the shape of a man. This was the creation of Ymir, the ancestor of all frost giants."
+                       FontSize="Large"
+                           XAlign="Center"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+                <Image x:Name="imageYmir3" Aspect="AspectFit"></Image>
+                
+                <Label Text="The ice continued to drip and eventually formed a cow. Her name was Audumla and she produced four flowing rivers of milk that Ymir fed from. The cow was nourished by licking the salty, rime-covered stones surrounding her. The myth says that as the days progressed and Audumla began to lick away the stones, a man began to appear. On the first day, the hair of the man was uncovered. On the second, his entire head emerged from the stones. On the third day, he was completely uncovered and came out from the stones. His name was Buri and he eventually had a son named Bor, who proposed marriage to a daughter of a giant named Bestla. They had three sons, Ve, Vili and Odin. Odin would become known as one of the most powerful gods, while the brothers together are known as the rulers of heaven and Earth."
+                       FontSize="Large"
+                           XAlign="Center"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+
+                <Image x:Name="imageYmir4" Aspect="AspectFit"></Image>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

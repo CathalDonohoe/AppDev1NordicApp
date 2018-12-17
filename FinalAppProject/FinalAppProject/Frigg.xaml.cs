@@ -17,7 +17,8 @@ namespace FinalAppProject
 			InitializeComponent ();
             SetUpImages();
             SetUpImages2();
-		}
+            SetUpImages3();
+        }
 
         private void SetUpImages()
         {
@@ -30,7 +31,7 @@ namespace FinalAppProject
 
             string strFilename = "FinalAppProject.Assets.Images.Frigg.png";
 
-            imageFrigg.Source = ImageSource.FromResource(strFilename, assembly);
+            imageFrigg3.Source = ImageSource.FromResource(strFilename, assembly);
 
         }
 
@@ -46,6 +47,21 @@ namespace FinalAppProject
             string strFilename = "FinalAppProject.Assets.Images.Frigg2.png";
 
             imageFrigg2.Source = ImageSource.FromResource(strFilename, assembly);
+
+        }
+
+        private void SetUpImages3()
+        {
+            // get the assembly
+            var assembly = typeof(MainPage);
+            /*
+             * need a directory path - ImageSample/Assets/Images/oogway.jpg
+             * two parameters are that directory path in that assembly
+             */
+
+            string strFilename = "FinalAppProject.Assets.Images.frigg3.jpg";
+
+            imageFrigg.Source = ImageSource.FromResource(strFilename, assembly);
 
         }
     }

@@ -4,28 +4,38 @@
              x:Class="FinalAppProject.Thor">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout BackgroundColor="DarkGray">
+            <StackLayout BackgroundColor="LightYellow">
                 <Image x:Name="imageThor" Aspect="AspectFit"></Image>
                 <Label Text="Thor" Font="Bold, 100"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-                <Frame BackgroundColor="LightYellow" HeightRequest="600" WidthRequest="150">
-                    <Label Text="Thor is the Norse god of thunder. He is generally depicted as red-headed and bearded. He is a son of Odin and Jord, 
-                           &#10; and one of the most powerful gods. He is married to Sif, a fertility goddess. His mistress is the giantess Jarnsaxa 
-                           &#10; ('iron cutlass'), and their sons are Magni and Modi and his daughter is Thrud. Thor is helped by Thialfi, his servant 
-                           &#10; and the messenger of the gods. who is Hermes in Greek Mythology and Mercury in Roman Mythology. Thor was usually portrayed 
-                           &#10; as a large, powerful man with a red beard and eyes of lighting. Despite his ferocious appearance, he was very popular as the 
-                           &#10; protector of both gods and humans against the forces of evil. He even surpassed his father Odin in popularity because, contrary
-                           &#10; to Odin, he did not require human sacrifices. In his temple at Uppsala he was shown standing with Odin at his right side. This 
-                           &#10; temple was replaced by a Christian church in 1080. The Norse believed that during a thunderstorm, Thor rode through the heavens
-                           &#10; on his chariot pulled by the goats Tanngrisni ('gap-tooth') and Tanngnost ('tooth grinder'). Lightning flashed whenever he threw
-                           &#10; his hammer Mjollnir. Thor wears the belt Megingjard which doubles his already considerable strength. His hall is Bilskirnir, 
-                           &#10; which is located in the region Thrudheim ('place of might'). His greatest enemy is Jormungand, the Midgard Serpent. At the day 
-                           &#10; of Ragnarok, Thor will kill this serpent but will die from its poison. His sons will inherit his hammer after his death."
-                           XAlign="Center"
+                
+                <Label Text="Thor is the Norse god of thunder. He is generally depicted as red-headed and bearded. He is a son of Odin and Jord, and one of the most powerful gods. He is married to Sif, a fertility goddess. His mistress is the giantess Jarnsaxa ('iron cutlass'), and their sons are Magni and Modi and his daughter is Thrud. Thor is helped by Thialfi, his servant and the messenger of the gods. who is Hermes in Greek Mythology and Mercury in Roman Mythology. Thor was usually portrayed as a large, powerful man with a red beard and eyes of lighting. Despite his ferocious appearance, he was very popular as the protector of both gods and humans against the forces of evil. He even surpassed his father Odin in popularity because, contrary to Odin, he did not require human sacrifices."
+                           FontSize="Large"
+                       XAlign="Center"
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
-                </Frame>
+
+                <Image x:Name="imageThor2" Aspect="AspectFit"></Image>
+                
+                
+                           <Label Text="In his temple at Uppsala he was shown standing with Odin at his right side. This temple was replaced by a Christian church in 1080. The Norse believed that during a thunderstorm, Thor rode through the heavens on his chariot pulled by the goats Tanngrisni ('gap-tooth') and Tanngnost ('tooth grinder'). Lightning flashed whenever he threw his hammer Mjollnir. His hall is Bilskirnir, which is located in the region Thrudheim ('place of might'). His greatest enemy is Jormungand, the Midgard Serpent."
+                           FontSize="Large"
+                                  XAlign="Center"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+
+
+
+                <Image x:Name="imageThor3" Aspect="AspectFit"></Image>
+                
+                <Label Text="Thor's hammer was forged by the dwarfs Brokkr and Eitri and it's one of the most frightening weapons, it can send out lightning bolts and is capable of tearing down mountains and Mjölnir can hit any target. After the target is hit, Thor's hammer will return to Thor's right hand all by itself. The hammer can be used to kill and destroy, but also revive people or animals. Thor's hammer can also be magically shrunken to fit inside Thor's shirt. The hammer Mjölnir is also used in sacred ceremonies; it can be ceremonies about birth but also death. Thor also has some other powerful items, like a pair of iron gauntlets and a magical belt, when he wears both of these magical items it makes him twice as strong. The belt is called Megingjord, 'power belt' and the iron gauntlets are called Járnglófar. Mjölnir was once stolen by the Giant Trym, and the price for getting it back was the hand of the fertility Goddess Freya."
+                       FontSize="Large"
+                       
+                       XAlign="Center"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+
                 <Image x:Name="imageThorSymbol" Aspect="AspectFit"></Image>
             </StackLayout>
         </ScrollView>

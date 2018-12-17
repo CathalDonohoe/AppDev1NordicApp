@@ -4,28 +4,27 @@
              x:Class="FinalAppProject.Heimdall">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout BackgroundColor="DarkGray">
+            <StackLayout BackgroundColor="Green">
                 <Image x:Name="imageHeimdall" Aspect="AspectFit"></Image>
                 <Label Text="Heimdall" Font="Bold, 100"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-                <Frame BackgroundColor="Green" HeightRequest="600" WidthRequest="150">
-                    <Label Text=" Heimdall is the god of light, the son of nine mothers (variously given as the daughters of Geirrendour the Giant or of Aegir).
-                           &#10; He was born at the end of the world and raised by the force of the earth, seawater and the blood of a boar.
-                           &#10; Because of his shining, golden teeth he is also called Gullintani ('gold tooth').
-                           &#10; His hall is Himinbjorg, The Cliffs of Heaven, and his horse is Gulltop. Heimdall carries the horn Gjallar.
-                           &#10; He is the watchman of the gods and guards Bifrost, the only entrance to Asgard, the realm of the gods.
-                           &#10; It is Heimdall's duty to prevent the giants from forcing their way into Asgard. He requires less sleep than a
-                           &#10; bird and can see a hundred miles around him, by night as well as by day. His hearing is so accurate that no sound 
-                           &#10; escapes him: he can even hear the grass grow or the wool on a sheep's back. At the final conflict of Ragnarok he will 
-                           &#10; kill his age-old enemy, the evil god Loki, but will die himself from his wounds. As the god Rig ('ruler'), Heimdall created 
-                           &#10; the three races of mankind: the serfs, the peasants, and the warriors. It is interesting to note why Heimdall fathered them, 
-                           &#10; and not Odin as might be expected. Furthermore, Heimdall is in many attributes identical with Tyr."
+                <Label Text=" Heimdall is the god of light, the son of nine mothers (variously given as the daughters of Geirrendour the Giant or of Aegir). He was born at the end of the world and raised by the force of the earth, seawater and the blood of a boar. Because of his shining, golden teeth he is also called Gullintani ('gold tooth'). His hall is Himinbjorg, The Cliffs of Heaven, and his horse is Gulltop. Heimdall carries the horn Gjallar."
+                       FontSize="Large"    
+                       XAlign="Center"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+
+
+                <Image x:Name="imageHeimdall2" Aspect="AspectFit"></Image>
+                
+                
+                    <Label Text="He is the watchman of the gods and guards Bifrost, the only entrance to Asgard, the realm of the gods. It is Heimdall's duty to prevent the giants from forcing their way into Asgard. He requires less sleep than a bird and can see a hundred miles around him, by night as well as by day. His hearing is so accurate that no sound escapes him: he can even hear the grass grow or the wool on a sheep's back. As the god Rig ('ruler'), Heimdall created the three races of mankind: the serfs, the peasants, and the warriors. It is interesting to note why Heimdall fathered them, and not Odin as might be expected. Furthermore, Heimdall is in many attributes identical with Tyr."
+                           FontSize="Large"
                            XAlign="Center"
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
-                </Frame>
-                <Image x:Name="imageHeimdallSymbol" Aspect="AspectFit"></Image>
+                    <Image x:Name="imageHeimdallSymbol" Aspect="AspectFit"></Image>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
