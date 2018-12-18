@@ -6,7 +6,7 @@
         <ScrollView>
         <StackLayout BackgroundColor="OrangeRed">
 
-            <Label Text="The Signs of Ragnarok" Font="Bold, 100"
+            <Label Text="The Signs of Ragnarok" Font="Bold, 50"
                    VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"/>
 

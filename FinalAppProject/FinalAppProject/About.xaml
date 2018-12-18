@@ -6,7 +6,7 @@
         <ScrollView>
         <StackLayout BackgroundColor="DarkSeaGreen">
             <Label Text="Welcome to My About Page"
-                   Font="bold, 70"
+                   Font="bold, 30"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
             

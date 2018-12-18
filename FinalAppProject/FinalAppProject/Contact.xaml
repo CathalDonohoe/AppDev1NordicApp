@@ -8,7 +8,7 @@
             <Label Text="Welcome to My Contact Page"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"
-                   Font="Bold, 100"/>
+                   Font="Bold, 30"/>
             
             <Label Text="If you have any problems or needs to contact me please dont hesitate to get in touch."
                    VerticalOptions="CenterAndExpand" 
