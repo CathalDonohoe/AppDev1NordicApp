@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalAppProject.About">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout BackgroundColor="DarkSeaGreen">
+            <Label Text="Welcome to My About Page"
+                   Font="bold, 70"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            
+            <Label Text="This app is designed to teach all about Norse Mythology. To use the app, select one of the buttons, from there slide across to acces another page of information."
+                   FontSize="Large"
+                           TextColor="Black"
+                           XAlign="Center"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center" />
+
+                <Label Text="Norse mythology is the body of myths of the North Germanic peoples, stemming from Norse paganism and continuing after the Christianization of Scandinavia, and into the Scandinavian folklore of the modern period. The northernmost extension of Germanic mythology, Norse mythology consists of tales of various deities, beings, and heroes derived from numerous sources from both before and after the pagan period, including medieval manuscripts, archaeological representations, and folk tradition."
+                       FontSize="Large"
+                           TextColor="Black"
+                           XAlign="Center"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center" />
+
+
+
+                <Button x:Name="btnGods" Text="Contact Page"
+                        HorizontalOptions="Center"
+                        TextColor="Black"
+                   Clicked="btnContact_Clicked"
+                   BackgroundColor="White"
+                        BorderColor="Red"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

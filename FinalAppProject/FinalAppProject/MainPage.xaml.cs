@@ -42,7 +42,7 @@ namespace FinalAppProject
 
         private void btnAbout_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Contact());
+            Navigation.PushAsync(new About());
         }
     }
 }
