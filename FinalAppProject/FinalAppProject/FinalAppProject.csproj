@@ -43,6 +43,16 @@
     <None Remove="Assets\Images\Odin3.jpg" />
     <None Remove="Assets\Images\OdinSymbol.png" />
     <None Remove="Assets\Images\RagnarokImage1.jpg" />
+    <None Remove="Assets\Images\RagnarokImage10.jpg" />
+    <None Remove="Assets\Images\RagnarokImage11.jpg" />
+    <None Remove="Assets\Images\RagnarokImage2.jpg" />
+    <None Remove="Assets\Images\RagnarokImage3.jpg" />
+    <None Remove="Assets\Images\RagnarokImage4.jpg" />
+    <None Remove="Assets\Images\RagnarokImage5.jpg" />
+    <None Remove="Assets\Images\RagnarokImage6.jpg" />
+    <None Remove="Assets\Images\RagnarokImage7.jpg" />
+    <None Remove="Assets\Images\RagnarokImage8.jpg" />
+    <None Remove="Assets\Images\RagnarokImage9.jpg" />
     <None Remove="Assets\Images\Thor.png" />
     <None Remove="Assets\Images\Thor2.jpg" />
     <None Remove="Assets\Images\Thor3.jpg" />
@@ -90,6 +100,16 @@
     <EmbeddedResource Include="Assets\Images\Odin3.jpg" />
     <EmbeddedResource Include="Assets\Images\OdinSymbol.png" />
     <EmbeddedResource Include="Assets\Images\RagnarokImage1.jpg" />
+    <EmbeddedResource Include="Assets\Images\RagnarokImage10.jpg" />
+    <EmbeddedResource Include="Assets\Images\RagnarokImage11.jpg" />
+    <EmbeddedResource Include="Assets\Images\RagnarokImage2.jpg" />
+    <EmbeddedResource Include="Assets\Images\RagnarokImage3.jpg" />
+    <EmbeddedResource Include="Assets\Images\RagnarokImage4.jpg" />
+    <EmbeddedResource Include="Assets\Images\RagnarokImage5.jpg" />
+    <EmbeddedResource Include="Assets\Images\RagnarokImage6.jpg" />
+    <EmbeddedResource Include="Assets\Images\RagnarokImage7.jpg" />
+    <EmbeddedResource Include="Assets\Images\RagnarokImage8.jpg" />
+    <EmbeddedResource Include="Assets\Images\RagnarokImage9.jpg" />
     <EmbeddedResource Include="Assets\Images\Thor.png" />
     <EmbeddedResource Include="Assets\Images\Thor2.jpg" />
     <EmbeddedResource Include="Assets\Images\Thor3.jpg" />
@@ -150,6 +170,15 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Ragnarok1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Ragnarok2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Ragnarok3.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Ragnarok4.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Thor.xaml">

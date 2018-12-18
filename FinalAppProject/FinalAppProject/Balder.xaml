@@ -8,23 +8,27 @@
                 <StackLayout BackgroundColor="Yellow">
                     <Image x:Name="imageBalder" Aspect="AspectFit"></Image>
                     <Label Text="Balder" Font="Bold, 100"
+                           TextColor="Black"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
                     
                         <Label Text="The god of light, joy, purity, beauty, innocence, and reconciliation. Son of Odin and Frigg, he was loved by both gods and men and was considered to be the best of the gods. He had a good character, was friendly, wise and eloquent, although he had little power. "
                                FontSize="Large"
+                               TextColor="Black"
             
                                XAlign="Center"
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
                         <Label Text="Most legends about him concern his death. Icelandic stories tell how the gods amused themselves by throwing objects at him, knowing that he was immune from harm. The blind god Höd, deceived by the evil Loki, killed Balder by hurling mistletoe, the only thing that could hurt him. After Balder's funeral, the giantess Thökk, probably Loki in disguise, refused to weep the tears that would release Balder from death."
                            FontSize="Large"
+                               TextColor="Black"
                                XAlign="Center"
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
                     <Image x:Name="imageBalder3" Aspect="AspectFit"></Image>
                     <Label Text="Some scholars believe that the passive, suffering figure of Balder was influenced by that of Christ. The Danish historian Saxo Grammaticus (c. 1200), however, depicts him as a warrior engaged in a feud over the hand of a woman."
                           FontSize="Large"
+                           TextColor="Black"
                             XAlign="Center"
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>

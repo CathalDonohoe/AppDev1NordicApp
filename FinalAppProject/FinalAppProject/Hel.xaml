@@ -7,6 +7,7 @@
             <StackLayout BackgroundColor="LawnGreen">
                 <Image x:Name="imageHel" Aspect="AspectFit"></Image>
                 <Label Text="Hel" Font="Bold, 100"
+                       TextColor="Black"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
                 
@@ -14,6 +15,7 @@
                 
                 <Label Text="In Norse mythology, Hel features as the goddess of the underworld. She was sent by Odin to Helheim/Niflheim to preside over the spirits of the dead, except for those who were killed in battle and went to Valhalla. It was her job to determine the fate of the souls who entered her realm. Hel is often depicted with her bones on the outside of her body rather than the inside. She is typically portrayed in black and white, as well, showing that she represents both sides of all spectrums."
                        FontSize="Large"    
+                       TextColor="Black"
                        XAlign="Center"
                        HorizontalOptions="Center"
                        VerticalOptions="Center"/>
@@ -22,7 +24,8 @@
                 <Image x:Name="imageHel2" Aspect="AspectFit"></Image>
 
                 <Label Text="Hel is one of three horrible children of the trickster god Loki. She is a giantess, goddess of death and a ruler of Niflheim, a dark dwelling place for the dead and one of the Nine Worlds of a cosmic ash tree, Yggdrasil."
-                       FontSize="Large"    
+                       FontSize="Large"  
+                       TextColor="Black"
                        XAlign="Center"
                        HorizontalOptions="Center"
                        VerticalOptions="Center"/>
@@ -31,7 +34,8 @@
                        HeightRequest="500" WidthRequest="500"></Image>
 
                 <Label Text="Hel is a greedy creature with a fearsome appearance. She lacks no concern over the dead and the living. One-half of her is greenish black and the other is white, with flesh that seemed to be rotting like that of a corpse. Hel's face is sinister and gloomy. The goddess is described as half dead and half alive. It is said that when she was born, diseases first came into the world."
-                       FontSize="Large"    
+                       FontSize="Large"   
+                       TextColor="Black"
                        XAlign="Center"
                        HorizontalOptions="Center"
                        VerticalOptions="Center"/>

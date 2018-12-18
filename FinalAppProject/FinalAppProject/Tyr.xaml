@@ -7,10 +7,12 @@
             <StackLayout BackgroundColor="SaddleBrown"> 
                 <Image x:Name="imageTyr" Aspect="AspectFit"></Image>
                 <Label Text="Tyr" Font="Bold, 100"
+                       TextColor="Black"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
                     <Label Text="The original Germanic god of war and the patron god of justice, the precursor of Odin. At the time of the Vikings, Tyr had to make way for Odin, who became the god of war himself. Tyr was by then regarded as Odin's son (or possibly of the giant Hymir). He is the boldest of the gods, who inspires courage and heroism in battle. Tyr is represented as a man with one hand, because his right hand was bitten off by the gigantic wolf Fenrir (in old-Norse, the wrist was called 'wolf-joint'). His attribute is a spear; the symbol of justice, as well as a weapon. At the day of Ragnarok, Tyr will kill the hound Garm, the guardian of the hell, but will die from the wounds inflicted by the animal. In later mythology, 'Tyr' became to mean 'god'. He is also known as T'waz, Tiw and Ziu."
                            FontSize="Large"
+                           TextColor="Black"
                            XAlign="Center"
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
@@ -20,6 +22,7 @@
 
                 <Label Text="Tyr is associated with the day Tuesday and in the Scandinavian countries, Denmark, Norway, and Sweden, this day is called Tirsdag after the God Tyr, so Tuesday is Tyr's day."
                        FontSize="Large" 
+                       TextColor="Black"
                        XAlign="Center"
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
@@ -30,6 +33,7 @@
                 
                 <Label Text="The reason why Tyr is the bravest of all the Gods is that he once put his hand into the jaws of the horrific beast Fenrir, he did this while the other Gods bound Fenrir to a rock. When the wolf Fenrir noticed that he could not get free from the chains, he was furious and bit Tyr's right hand off. Tyr will die at Ragnarok while fighting the dog Garm 'the guardian of the gates of Hel', killing Garm will be his last great moment for him."
                        FontSize="Large" 
+                       TextColor="Black"
                        XAlign="Center"
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>

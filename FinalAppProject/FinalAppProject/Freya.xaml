@@ -8,6 +8,7 @@
                 <StackLayout BackgroundColor="Pink">
                     <Image x:Name="imageFreya" Aspect="AspectFit"></Image>
                     <Label Text="Freya" Font="Bold, 100"
+                           TextColor="Black"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
                         <Label Text="In Norse mythology, Freya is a goddess of love and fertility, and the most beautiful and propitious of the goddesses. She is the patron goddess of crops and birth, the symbol of sensuality and was called upon in matters of love. She loves music, spring and flowers, and is particularly fond of the elves (fairies). Freya is one of the foremost goddesses of the Vanir."
@@ -18,6 +19,7 @@
                     <Image x:Name="imageFreya2" Aspect="AspectFit"></Image>
                     <Label Text="Goddess of sex, battle, and pleasure, most beautiful and desirable of white-armed women, Freya was sister to the male fertility god Freyr. Freya had unusual parity with Odin, for they divided the heroic dead amongst themselves. Half went to live eternally in Odin's hall, and half in Freya's hall Sessrumnir- and the goddess got first pick."
                            FontSize="Large"
+                           TextColor="Black"
                            XAlign="Center"
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
@@ -27,6 +29,7 @@
 
 
                     <Label Text="Freya is married to the God Odr, she has two children with Odr, their names are Hnoss and Gersimi. Some of the weekdays in Norse mythology originate from some of the Gods and Goddesses, and Freya might be associated with the day Friday, but there are conflicting sources so it could also be the Goddess Frigg. Freya is incredibly beautiful and she has many admirers, not just among the Gods and Goddesses but also among the dwarves and giants. She loves jewelry and other fine materials and she has quite often used her beauty to get the jewelry she desires. a big passion for poems and loves to sit and listen to songs for many hours. Freya has an unusual gift when she cries her tears turns into amber or gold."
+                           TextColor="Black"
 
                            FontSize="Large"  
                            XAlign="Center"

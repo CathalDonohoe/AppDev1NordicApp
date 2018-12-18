@@ -4,25 +4,56 @@
              x:Class="FinalAppProject.Ragnarok1">
     <ContentPage.Content>
         <ScrollView>
-        <StackLayout BackgroundColor="DarkGray">
+        <StackLayout BackgroundColor="OrangeRed">
             
             <Label Text="The Explanantion of Ragnarok" Font="Bold, 100"
                    VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"/>
-            
-            <Label Text="Ragnarok is the cataclysmic destruction of the cosmos and everything in it – even the gods. When Norse mythology is considered 
-                   &#10; as a chronological set of tales, the story of Ragnarok naturally comes at the very end. For the Vikings, the myth of Ragnarok
-                   &#10; was a prophecy of what was to come at some unspecified and unknown time in the future, but it had profound ramifications for 
-                   &#10; how the Vikings understood the world in their own time. We'll explore some of those ramifications below.
-                   &#10;
-                   &#10; The word 'Ragnarok' comes from Old Norse Ragnarök, 'Fate of the Gods.' In an apparent play on words, some pieces of Old Norse 
-                   &#10; literature also refer to it as Ragnarøkkr, 'Twilight of the Gods.' The event was also occasionally referred to as aldar rök, 
-                   &#10; 'fate of mankind,' and a host of other names."
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <Image x:Name="RagnarokImage1" Aspect="AspectFit"
+
+                <Image x:Name="RagnarokImage1" Aspect="AspectFit"
                    HorizontalOptions="Center"
-                   VerticalOptions="Center"></Image>
+                   VerticalOptions="Center"
+                   HeightRequest="500" 
+                   WidthRequest="500"></Image>
+
+
+                <Label Text="Ragnarok is the cataclysmic destruction of the cosmos and everything in it – even the gods. When Norse mythology is considered as a chronological set of tales, the story of Ragnarok naturally comes at the very end. For the Vikings, the myth of Ragnarok was a prophecy of what was to come at some unspecified and unknown time in the future, but it had profound ramifications for how the Vikings understood the world in their own time. We'll explore some of those ramifications below."
+                   
+                FontSize="Large"
+                           TextColor="Black"
+                           XAlign="Center"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center" />
+
+
+
+                <Image x:Name="RagnarokImage2" Aspect="AspectFit"
+                       HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   HeightRequest="600" 
+                   WidthRequest="600"></Image>
+
+
+                <Label Text="The word 'Ragnarok' comes from Old Norse Ragnarök, 'Fate of the Gods.' In an apparent play on words, some pieces of Old Norse literature also refer to it as Ragnarøkkr, 'Twilight of the Gods.' The event was also occasionally referred to as aldar rök, 'fate of mankind,' and a host of other names."
+                       FontSize="Large"
+                           TextColor="Black"
+                           XAlign="Center"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center" />
+
+
+                <Image x:Name="RagnarokImage3" Aspect="AspectFit"
+                        HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   HeightRequest="600" 
+                   WidthRequest="600"></Image>
+
+                <Label Text=" It will be the final battle between the Aesir and Giants. The battle will take place on the plains called Vigrid. It is here that the mighty Midgard serpent will be emerging from the sea, while it splashes its tail and sprays poison in all directions, causing huge waves crashing towards the land. Meanwhile, the fire giant Surtr will set Asgard (the home of the Gods and Goddesses) and the rainbow bridge Bifrost on fire. The Fenrir wolf will break free of his chains and spread death and destruction. The sun and the moon will be swallowed by the wolves Sköll and Hati, and even the world tree Yggdrasil will shake the ground."
+                       FontSize="Large"
+                           TextColor="Black"
+                           XAlign="Center"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center" />
 
             
         </StackLayout>

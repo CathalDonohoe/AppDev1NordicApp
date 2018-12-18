@@ -18,18 +18,21 @@
 
                 <Button x:Name="btnGods" Text="Gods"
                    HorizontalOptions="Center"
+                        TextColor="Black"
                    Clicked="btnGods_Clicked"
                    BackgroundColor="White"
                         BorderColor="Red"/>
 
                 <Button x:Name="btnRagnarok" Text="Ragnarok"
                         HorizontalOptions="Center"
+                        TextColor="Black"
                         Clicked="btnRagnarok_Clicked"
                         BackgroundColor="White"
                         BorderColor="Red"/>
 
                 <Button x:Name="btnAbout" Text="About"
                         HorizontalOptions="Center"
+                        TextColor="Black"
                         Clicked="btnAbout_Clicked"
                         BackgroundColor="white"
                         BorderColor="Red"/>

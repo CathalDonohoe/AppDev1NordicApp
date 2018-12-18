@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalAppProject.Ragnarok3">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="OrangeRed">
+
+                <Label Text="The Beginning of Ragnarok" Font="Bold, 100"
+                   VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"/>
+
+                <Image x:Name="RagnarokImage6" Aspect="AspectFit"></Image>
+                
+                <Label Text="A beautiful red rooster 'Fjalar which name means the 'All knower', will warn all the giants that the beginning of Ragnarok has begun. At the same time in Hel, will a red rooster warn all the dishonorable dead, that the war has begun. And also in Asgard, will a red rooster 'Gullinkambi' warn all the Gods. Heimdall will blow his horn as loud as he can and that will be the warning for all the einherjar in Valhalla that the war has started. This will be the battle to end all battles, and this will be the day that all the Vikings 'Einherjar' from Valhalla and Folkvangr who had died honorably in battle, to pick up their swords and armor to fight side by side with the Aesir against the Giants."
+
+                   FontSize="Large"
+                           TextColor="Black"
+                           XAlign="Center"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center" />
+
+                <Image x:Name="RagnarokImage7" Aspect="AspectFit"></Image>
+                
+                <Label Text="The Gods, Baldr, and Hod will be returned from the dead, to fight one last time with their brothers and sisters. Odin will be riding on his horse Sleipnir with his eagle helmet equipped and his spear Gungnir in his hand, and lead the enormous army of Asgard with all the Gods and brave einherjar to the battleground in the fields of Vigrid. The Giants will together with Hel, and all her dishonorable dead, sail in the ship Naglfar, which is made from the fingernails of all the dead, sail to the plains of Vigrid. The dragon Nidhug will come flying over the battlefield and gather as many corpses for his never-ending hunger."
+                FontSize="Large"
+                           TextColor="Black"
+                           XAlign="Center"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

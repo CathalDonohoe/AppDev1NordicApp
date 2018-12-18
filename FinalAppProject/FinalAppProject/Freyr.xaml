@@ -8,10 +8,12 @@
                 <StackLayout BackgroundColor="DeepSkyBlue">
                     <Image x:Name="imageFreyr" Aspect="AspectFit"></Image>
                     <Label Text="Freyr" Font="Bold, 100"
+                           TextColor="Black"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
                     <Label Text="Freyr, also spelled Frey, also called Yngvi, in Norse mythology, the ruler of peace and fertility, rain, and sunshine and the son of the sea god Njörd. Although originally one of the Vanir tribe, he was included with the Aesir. Gerd, daughter of the giant Gymir, was his wife. Worshiped especially in Sweden, he was also well-known in Norway and Iceland. His sister and female counterpart, Freya, was goddess of love, fertility, battle, and death. The boar was sacred to both. Freyr and Freya figure in many lays and stories of medieval Iceland."
                                FontSize="Large"
+                           TextColor="Black"
                            XAlign="Center"
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
@@ -21,6 +23,7 @@
 
                     <Label Text="As such, it makes sense that Freyr is known as a god of fertility and peace. He is also strongly associated with the sun, which gives us a good idea of his importance. Across many cultures, sun gods tend to be at, or close to, the top of their respective pantheons. Freyr is described in old poems as being first among the gods when it came to reputation. Apparently, no one disliked him among all the people."
                            FontSize="Large"
+                           TextColor="Black"
                            XAlign="Center"
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
@@ -29,6 +32,7 @@
 
                     <Label Text="Freyr is usually depicted as a virile, muscular man with long flowing hair. Often, he is carrying a sword and he is almost always accompanied by his gigantic golden-bristled boar, Gullinbursti. Since Freyr is both the son of the ocean god and himself the sun god, we can see both of those themes in artwork that depicts him. Some images will show him holding an antler, since in one of his myths he is forced to give his sword away and must make do with an antler instead."
                            FontSize="Large"
+                           TextColor="Black"
                            XAlign="Center"
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>

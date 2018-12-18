@@ -5,5 +5,8 @@
              x:Class="FinalAppProject.Ragnarok">
   <!--Pages can be added as references or inline-->
     <Ragnarok:Ragnarok1 Title="Ragnarok Summary"/>
+    <Ragnarok:Ragnarok2 Title="Ragnarok Signs"/>
+    <Ragnarok:Ragnarok3 Title="Ragnarok Beginning"/>
+    <Ragnarok:Ragnarok4 Title="Ragnarok End" />
 
 </TabbedPage>

@@ -10,15 +10,13 @@ using Xamarin.Forms.Xaml;
 namespace FinalAppProject
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Ragnarok1 : ContentPage
+	public partial class Ragnarok3 : ContentPage
 	{
-		public Ragnarok1 ()
+		public Ragnarok3 ()
 		{
 			InitializeComponent ();
             SetUpImages();
-
-        }
-
+		}
 
         private void SetUpImages()
         {
@@ -29,14 +27,12 @@ namespace FinalAppProject
              * two parameters are that directory path in that assembly
              */
 
-            string strFilename = "FinalAppProject.Assets.Images.RagnarokImage1.jpg";
-            RagnarokImage1.Source = ImageSource.FromResource(strFilename, assembly);
+            string strFilename6 = "FinalAppProject.Assets.Images.RagnarokImage6.jpg";
+            RagnarokImage6.Source = ImageSource.FromResource(strFilename6, assembly);
 
-            string strFilename2 = "FinalAppProject.Assets.Images.RagnarokImage2.jpg";
-            RagnarokImage2.Source = ImageSource.FromResource(strFilename2, assembly);
+            string strFilename7 = "FinalAppProject.Assets.Images.RagnarokImage7.jpg";
+            RagnarokImage7.Source = ImageSource.FromResource(strFilename7, assembly);
 
-            string strFilename3 = "FinalAppProject.Assets.Images.RagnarokImage3.jpg";
-            RagnarokImage3.Source = ImageSource.FromResource(strFilename3, assembly);
 
         }
     }
