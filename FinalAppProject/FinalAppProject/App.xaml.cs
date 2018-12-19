@@ -11,6 +11,7 @@ namespace FinalAppProject
         {
             InitializeComponent();
 
+            //navigation page code
             MainPage = new NavigationPage(new MainPage());
         }
 

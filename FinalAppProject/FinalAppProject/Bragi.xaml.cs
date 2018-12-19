@@ -15,9 +15,9 @@ namespace FinalAppProject
 		public Bragi ()
 		{
 			InitializeComponent ();
+
+            //function to set up images
             SetUpImages();
-            SetUpImages3();
-            SetUpImages4();
 		}
 
 
@@ -25,50 +25,20 @@ namespace FinalAppProject
         {
             // get the assembly
             var assembly = typeof(MainPage);
-            /*
-             * need a directory path - ImageSample/Assets/Images/oogway.jpg
-             * two parameters are that directory path in that assembly
-             */
-
+            
+            //first image set up
             string strFilename = "FinalAppProject.Assets.Images.Bragi.png";
-
             imageBragi.Source = ImageSource.FromResource(strFilename, assembly);
 
-        }
+            //second image set up
+            string strFilename2 = "FinalAppProject.Assets.Images.Bragi2.jpg";
+            imageBragi2.Source = ImageSource.FromResource(strFilename2, assembly);
 
-        
-
-        private void SetUpImages3()
-        {
-            // get the assembly
-            var assembly = typeof(MainPage);
-            /*
-             * need a directory path - ImageSample/Assets/Images/oogway.jpg
-             * two parameters are that directory path in that assembly
-             */
-
-            string strFilename = "FinalAppProject.Assets.Images.Bragi2.jpg";
-
-            imageBragi2.Source = ImageSource.FromResource(strFilename, assembly);
+            //third image
+            string strFilename3 = "FinalAppProject.Assets.Images.Bragi3.jpg";
+            imageBragi3.Source = ImageSource.FromResource(strFilename3, assembly);
 
         }
-
-
-
-        private void SetUpImages4()
-        {
-            // get the assembly
-            var assembly = typeof(MainPage);
-            /*
-             * need a directory path - ImageSample/Assets/Images/oogway.jpg
-             * two parameters are that directory path in that assembly
-             */
-
-            string strFilename = "FinalAppProject.Assets.Images.Bragi3.jpg";
-
-            imageBragi3.Source = ImageSource.FromResource(strFilename, assembly);
-
-        }
-
+  
     }
 }

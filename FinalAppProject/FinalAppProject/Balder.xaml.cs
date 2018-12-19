@@ -15,54 +15,29 @@ namespace FinalAppProject
 		public Balder ()
 		{
 			InitializeComponent ();
+
+            //function to set up the images
             SetUpImages();
-            SetUpImages2();
-            SetUpImages3();
 		}
 
         private void SetUpImages()
         {
             // get the assembly
             var assembly = typeof(MainPage);
-            /*
-             * need a directory path - ImageSample/Assets/Images/oogway.jpg
-             * two parameters are that directory path in that assembly
-             */
 
+            //first image
             string strFilename = "FinalAppProject.Assets.Images.Balder.png";
-
             imageBalder.Source = ImageSource.FromResource(strFilename, assembly);
 
-        }
+            //second image, third image on the page
+            string strFilename2 = "FinalAppProject.Assets.Images.Balder2.png";
+            imageBalder2.Source = ImageSource.FromResource(strFilename2, assembly);
 
-        private void SetUpImages2()
-        {
-            // get the assembly
-            var assembly = typeof(MainPage);
-            /*
-             * need a directory path - ImageSample/Assets/Images/oogway.jpg
-             * two parameters are that directory path in that assembly
-             */
-
-            string strFilename = "FinalAppProject.Assets.Images.Balder2.png";
-
-            imageBalder2.Source = ImageSource.FromResource(strFilename, assembly);
+            //third image, second on the page
+            string strFilename3 = "FinalAppProject.Assets.Images.Balder3.jpg";
+            imageBalder3.Source = ImageSource.FromResource(strFilename3, assembly);
 
         }
-
-        private void SetUpImages3()
-        {
-            // get the assembly
-            var assembly = typeof(MainPage);
-            /*
-             * need a directory path - ImageSample/Assets/Images/oogway.jpg
-             * two parameters are that directory path in that assembly
-             */
-
-            string strFilename = "FinalAppProject.Assets.Images.Balder3.jpg";
-
-            imageBalder3.Source = ImageSource.FromResource(strFilename, assembly);
-
-        }
+        
     }
 }

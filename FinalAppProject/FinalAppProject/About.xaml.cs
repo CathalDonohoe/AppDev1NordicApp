@@ -17,6 +17,7 @@ namespace FinalAppProject
 			InitializeComponent ();
 		}
 
+        //button to move to contact page
         private void btnContact_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new Contact());
