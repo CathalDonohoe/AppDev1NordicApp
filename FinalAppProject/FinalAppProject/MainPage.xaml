@@ -8,21 +8,29 @@
         <StackLayout BackgroundColor="Black"
                      HorizontalOptions="FillAndExpand"
                      VerticalOptions="FillAndExpand">
-            <Image x:Name="bckgrndImage" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Image>
+
+            <!--Main image-->
+            <Image x:Name="bckgrndImage" 
+                   HorizontalOptions="FillAndExpand" 
+                   VerticalOptions="FillAndExpand"></Image>
+
 
             <StackLayout HorizontalOptions="FillAndExpand"
-                     VerticalOptions="FillAndExpand"
-                     BackgroundColor="Black">
+                         VerticalOptions="FillAndExpand"
+                         BackgroundColor="Black">
 
 
 
-                <Button x:Name="btnGods" Text="Gods"
-                   HorizontalOptions="Center"
+                <!--button to go to gods tabbed page-->
+                <Button x:Name="btnGods" 
+                        Text="Gods"
+                        HorizontalOptions="Center"
                         TextColor="Black"
-                   Clicked="btnGods_Clicked"
-                   BackgroundColor="White"
+                        Clicked="btnGods_Clicked"
+                        BackgroundColor="White"
                         BorderColor="Red"/>
 
+                <!--button to go to Ragnarok tabbed page-->
                 <Button x:Name="btnRagnarok" Text="Ragnarok"
                         HorizontalOptions="Center"
                         TextColor="Black"
@@ -30,6 +38,8 @@
                         BackgroundColor="White"
                         BorderColor="Red"/>
 
+
+                <!--button to go to About page-->
                 <Button x:Name="btnAbout" Text="About"
                         HorizontalOptions="Center"
                         TextColor="Black"
@@ -37,11 +47,8 @@
                         BackgroundColor="white"
                         BorderColor="Red"/>
 
-        </StackLayout>
+            </StackLayout>
         </StackLayout>
 
     </ScrollView>
-
-
-
 </ContentPage>

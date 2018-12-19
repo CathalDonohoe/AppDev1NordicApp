@@ -12,34 +12,34 @@ namespace FinalAppProject
         public MainPage()
         {
             InitializeComponent();
+            //calling function to set up images
             SetUpImages();
         }
 
+        //button to go to gods tabbed pages
         private void btnGods_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new NordicGodsPage());
         }
 
+        //function to set up images
         private void SetUpImages()
         {
-            // get the assembly
             var assembly = typeof(MainPage);
-            /*
-             * need a directory path - ImageSample/Assets/Images/oogway.jpg
-             * two parameters are that directory path in that assembly
-             */
+
 
             string strFilename = "FinalAppProject.Assets.Images.Background Image.png";
-
             bckgrndImage.Source = ImageSource.FromResource(strFilename, assembly);
 
         }
 
+        //function to go to Ranarok tabbed pages
         private void btnRagnarok_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new Ragnarok());
         }
 
+        //button to go to about page
         private void btnAbout_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new About());

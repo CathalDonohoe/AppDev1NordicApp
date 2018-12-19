@@ -15,17 +15,14 @@ namespace FinalAppProject
 		public Ragnarok2 ()
 		{
 			InitializeComponent ();
+            //calling function
             SetUpImages();
 		}
 
         private void SetUpImages()
         {
-            // get the assembly
+            // function to set up images
             var assembly = typeof(MainPage);
-            /*
-             * need a directory path - ImageSample/Assets/Images/oogway.jpg
-             * two parameters are that directory path in that assembly
-             */
 
             string strFilename4 = "FinalAppProject.Assets.Images.RagnarokImage4.jpg";
             RagnarokImage4.Source = ImageSource.FromResource(strFilename4, assembly);

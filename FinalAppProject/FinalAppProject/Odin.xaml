@@ -5,40 +5,53 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout BackgroundColor="IndianRed">
+                
+                <!--First image-->
                 <Image x:Name="imageOdin" Aspect="AspectFit"></Image>
-                <Label Text="Odin" Font="Bold, 100"
+                
+                
+                <Label Text="Odin" 
+                       Font="Bold, 100"
                        TextColor="Black"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" />
                 
                 
                 <Label Text="Odin, also called Wodan, Woden, or Wotan, one of the principal gods in Norse mythology. His exact nature and role, however, are difficult to determine because of the complex picture of him given by the wealth of archaeological and literary sources. The Roman historian Tacitus stated that the Teutons worshiped Mercury; and because dies Mercurii ('Mercury's day') was identified with Wednesday ('Woden's day'), there is little doubt that the god Woden (the earlier form of Odin) was meant. Though Woden was worshiped preeminently, there is not sufficient evidence of his cult to show whether it was practiced by all the Teutonic tribes or to enable conclusions to be drawn about the nature of the god. Later literary sources, however, indicate that at the end of the pre-Christian period Odin was the principal god in Scandinavia."
-                       FontSize="Large" 
+                       FontSize="Medium" 
                        TextColor="Black"
                        XAlign="Center"
                        HorizontalOptions="Center"
                        VerticalOptions="Center"/>
+
+
+                <!--Second image-->
                 <Image x:Name="imageOdin2" Aspect="AspectFit"></Image>
                 
                 
                 <Label Text="From earliest times Odin was a war god, and he appeared in heroic literature as the protector of heroes; fallen warriors joined him in Valhalla. The wolf and the raven were dedicated to him. His magical horse, Sleipnir, had eight legs, teeth inscribed with runes, and the ability to gallop through the air and over the sea. Odin was the great magician among the gods and was associated with runes. He was also the god of poets. In outward appearance he was a tall, old man, with flowing beard and only one eye (the other he gave in exchange for wisdom). He was usually depicted wearing a cloak and a wide-brimmed hat and carrying a spear."
-                       FontSize="Large"    
+                       FontSize="Medium"    
                        TextColor="Black"
                        XAlign="Center"
-                           HorizontalOptions="Center"
-                           VerticalOptions="Center"/>
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
 
 
+                <!--third image-->
                 <Image x:Name="imageOdin3" Aspect="AspectFit"></Image>
 
+                
                 <Label Text="In Old Norse texts, female beings associated with the battlefield—the valkyries—are associated with the god and Odin oversees Valhalla, where he receives half of those who die in battle, the einherjar. The other half are chosen by the goddess Freyja for her afterlife location, Fólkvangr. Odin consults the disembodied, herb-embalmed head of the wise being Mímir for advice, and during the foretold events of Ragnarök, Odin is told to lead the einherjar into battle before being consumed by the monstrous wolf Fenrir. In later folklore, Odin appears as a leader of the Wild Hunt, a ghostly procession of the dead through the winter sky. He is associated with charms and other forms of magic, particularly in Old English and Old Norse texts"
-                        FontSize="Large"
+                       FontSize="Medium"
                        TextColor="Black"
                        XAlign="Center"
-                           HorizontalOptions="Center"
-                           VerticalOptions="Center"/>
-                
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+
+
+                <!--Forth image-->
                 <Image x:Name="imageOdinSymbol" Aspect="AspectFit"></Image>
+                
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

@@ -6,7 +6,7 @@
         <ScrollView>
                 <StackLayout BackgroundColor="Yellow">
                     
-                    <!--first image--!>
+                    <!--first image-->
                     <Image x:Name="imageBalder" Aspect="AspectFit"></Image>
                     
                     
@@ -31,18 +31,18 @@
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
                     
-                    <!--second image--!>
+                    <!--second image-->
                     <Image x:Name="imageBalder3" Aspect="AspectFit"></Image>
                     
                     
                     <Label Text="Some scholars believe that the passive, suffering figure of Balder was influenced by that of Christ. The Danish historian Saxo Grammaticus (c. 1200), however, depicts him as a warrior engaged in a feud over the hand of a woman."
-                           FontSize="Large"
+                           FontSize="Medium"
                            TextColor="Black"
                            XAlign="Center"
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
                     
-                    <!--third image--!>
+                    <!--third image-->
                     <Image x:Name="imageBalder2" Aspect="AspectFit"></Image>
                     
                     

@@ -15,72 +15,31 @@ namespace FinalAppProject
 		public Hel ()
 		{
 			InitializeComponent ();
+            //calling fucntion
             SetUpImages();
-            SetUpImages2();
-            SetUpImages3();
-            SetUpImages4();
         }
 
         private void SetUpImages()
         {
-            // get the assembly
+
+            //function to set up images
             var assembly = typeof(MainPage);
-            /*
-             * need a directory path - ImageSample/Assets/Images/oogway.jpg
-             * two parameters are that directory path in that assembly
-             */
-
+           
             string strFilename = "FinalAppProject.Assets.Images.Hel.png";
-
             imageHel.Source = ImageSource.FromResource(strFilename, assembly);
 
+
+            string strFilename2 = "FinalAppProject.Assets.Images.HelSymbol.png";
+            imageHelSymbol.Source = ImageSource.FromResource(strFilename2, assembly);
+
+
+            string strFilename3 = "FinalAppProject.Assets.Images.Hel2.jpg";
+            imageHel2.Source = ImageSource.FromResource(strFilename3, assembly);
+
+
+            string strFilename4 = "FinalAppProject.Assets.Images.Hel3.jpg";
+            imageHel3.Source = ImageSource.FromResource(strFilename4, assembly);
         }
-
-        private void SetUpImages2()
-        {
-            // get the assembly
-            var assembly = typeof(MainPage);
-            /*
-             * need a directory path - ImageSample/Assets/Images/oogway.jpg
-             * two parameters are that directory path in that assembly
-             */
-
-            string strFilename = "FinalAppProject.Assets.Images.HelSymbol.png";
-
-            imageHelSymbol.Source = ImageSource.FromResource(strFilename, assembly);
-
-        }
-
-        private void SetUpImages3()
-        {
-            // get the assembly
-            var assembly = typeof(MainPage);
-            /*
-             * need a directory path - ImageSample/Assets/Images/oogway.jpg
-             * two parameters are that directory path in that assembly
-             */
-
-            string strFilename = "FinalAppProject.Assets.Images.Hel2.jpg";
-
-            imageHel2.Source = ImageSource.FromResource(strFilename, assembly);
-
-        }
-
-
-
-        private void SetUpImages4()
-        {
-            // get the assembly
-            var assembly = typeof(MainPage);
-            /*
-             * need a directory path - ImageSample/Assets/Images/oogway.jpg
-             * two parameters are that directory path in that assembly
-             */
-
-            string strFilename = "FinalAppProject.Assets.Images.Hel3.jpg";
-
-            imageHel3.Source = ImageSource.FromResource(strFilename, assembly);
-
-        }
+        
     }
 }

@@ -16,17 +16,17 @@
                 <Label Text="If you have any problems or needs to contact me please dont hesitate to get in touch."
                        VerticalOptions="CenterAndExpand" 
                        HorizontalOptions="CenterAndExpand"
-                       FontSize="Large"/>
+                       FontSize="Medium"/>
             
                 <Label Text="Email: cdonohoe1374@gmail.com"
                        VerticalOptions="CenterAndExpand" 
                        HorizontalOptions="CenterAndExpand"
-                       FontSize="Large"/>
+                       FontSize="Medium"/>
 
                 <Label Text="Creator: Cathal Donohoe"
                        VerticalOptions="CenterAndExpand" 
                        HorizontalOptions="CenterAndExpand"
-                       FontSize="Large"/>
+                       FontSize="Medium"/>
 
             </StackLayout>
         </ScrollView>

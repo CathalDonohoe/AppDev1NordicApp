@@ -15,72 +15,32 @@ namespace FinalAppProject
         public Ymir()
         {
             InitializeComponent();
+            //calling function
             SetUpImages();
-            SetUpImages2();
-            SetUpImages3();
-            SetUpImages4();
 
         }
 
 
         private void SetUpImages()
         {
-            // get the assembly
+            // function to set up images
             var assembly = typeof(MainPage);
-            /*
-             * need a directory path - ImageSample/Assets/Images/oogway.jpg
-             * two parameters are that directory path in that assembly
-             */
+            
 
             string strFilename = "FinalAppProject.Assets.Images.Ymir.png";
-
             imageYmir.Source = ImageSource.FromResource(strFilename, assembly);
 
-        }
 
-        private void SetUpImages2()
-        {
-            // get the assembly
-            var assembly = typeof(MainPage);
-            /*
-             * need a directory path - ImageSample/Assets/Images/oogway.jpg
-             * two parameters are that directory path in that assembly
-             */
+            string strFilename2 = "FinalAppProject.Assets.Images.Ymir2.png";
+            imageYmir2.Source = ImageSource.FromResource(strFilename2, assembly);
 
-            string strFilename = "FinalAppProject.Assets.Images.Ymir2.png";
 
-            imageYmir2.Source = ImageSource.FromResource(strFilename, assembly);
+            string strFilename3 = "FinalAppProject.Assets.Images.Ymir3.jpg";
+            imageYmir3.Source = ImageSource.FromResource(strFilename3, assembly);
 
-        }
 
-        private void SetUpImages3()
-        {
-            // get the assembly
-            var assembly = typeof(MainPage);
-            /*
-             * need a directory path - ImageSample/Assets/Images/oogway.jpg
-             * two parameters are that directory path in that assembly
-             */
-
-            string strFilename = "FinalAppProject.Assets.Images.Ymir3.jpg";
-
-            imageYmir3.Source = ImageSource.FromResource(strFilename, assembly);
-
-        }
-
-        private void SetUpImages4()
-        {
-            // get the assembly
-            var assembly = typeof(MainPage);
-            /*
-             * need a directory path - ImageSample/Assets/Images/oogway.jpg
-             * two parameters are that directory path in that assembly
-             */
-
-            string strFilename = "FinalAppProject.Assets.Images.Ymir4.jpg";
-
-            imageYmir4.Source = ImageSource.FromResource(strFilename, assembly);
-
+            string strFilename4 = "FinalAppProject.Assets.Images.Ymir4.jpg";
+            imageYmir4.Source = ImageSource.FromResource(strFilename4, assembly);
         }
 
 

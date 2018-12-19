@@ -5,7 +5,7 @@
     <ContentPage.Content>
         <ScrollView>
 
-            <!--This page is just information on how to use the app, and a button that connects to my contact page with ways of getting in touch with the creator--!>
+            <!--This page is just information on how to use the app, and a button that connects to my contact page with ways of getting in touch with the creator-->
             
         <StackLayout BackgroundColor="DarkSeaGreen">
             
@@ -17,14 +17,14 @@
                    HorizontalOptions="CenterAndExpand" />
             
             <Label Text="This app is designed to teach all about Norse Mythology. To use the app, select one of the buttons, from there slide across to acces another page of information."
-                   FontSize="Large"
+                   FontSize="Medium"
                    TextColor="Black"
                    XAlign="Center"
                    HorizontalOptions="Center"
                    VerticalOptions="Center" />
 
             <Label Text="Norse mythology is the body of myths of the North Germanic peoples, stemming from Norse paganism and continuing after the Christianization of Scandinavia, and into the Scandinavian folklore of the modern period. The northernmost extension of Germanic mythology, Norse mythology consists of tales of various deities, beings, and heroes derived from numerous sources from both before and after the pagan period, including medieval manuscripts, archaeological representations, and folk tradition."
-                   FontSize="Large"
+                   FontSize="Medium"
                    TextColor="Black"
                    XAlign="Center"
                    HorizontalOptions="Center"

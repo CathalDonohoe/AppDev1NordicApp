@@ -12,57 +12,32 @@ namespace FinalAppProject
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Heimdall : ContentPage
 	{
-		public Heimdall ()
-		{
-			InitializeComponent ();
+        public Heimdall()
+        {
+            InitializeComponent();
+            //calling function to set up images
             SetUpImages();
-            SetUpImages2();
-            SetUpImages3();
         }
+
 
         private void SetUpImages()
         {
-            // get the assembly
+
+            //function to set up images
             var assembly = typeof(MainPage);
-            /*
-             * need a directory path - ImageSample/Assets/Images/oogway.jpg
-             * two parameters are that directory path in that assembly
-             */
+          
 
             string strFilename = "FinalAppProject.Assets.Images.Heimdall.png";
-
             imageHeimdall.Source = ImageSource.FromResource(strFilename, assembly);
 
+
+            string strFilename2 = "FinalAppProject.Assets.Images.HeimdallSymbol.png";
+            imageHeimdallSymbol.Source = ImageSource.FromResource(strFilename2, assembly);
+
+
+            string strFilename3 = "FinalAppProject.Assets.Images.Heimdall2.jpg";
+            imageHeimdall2.Source = ImageSource.FromResource(strFilename3, assembly);
         }
 
-        private void SetUpImages2()
-        {
-            // get the assembly
-            var assembly = typeof(MainPage);
-            /*
-             * need a directory path - ImageSample/Assets/Images/oogway.jpg
-             * two parameters are that directory path in that assembly
-             */
-
-            string strFilename = "FinalAppProject.Assets.Images.HeimdallSymbol.png";
-
-            imageHeimdallSymbol.Source = ImageSource.FromResource(strFilename, assembly);
-
-        }
-
-        private void SetUpImages3()
-        {
-            // get the assembly
-            var assembly = typeof(MainPage);
-            /*
-             * need a directory path - ImageSample/Assets/Images/oogway.jpg
-             * two parameters are that directory path in that assembly
-             */
-
-            string strFilename = "FinalAppProject.Assets.Images.Heimdall2.jpg";
-
-            imageHeimdall2.Source = ImageSource.FromResource(strFilename, assembly);
-
-        }
     }
 }
