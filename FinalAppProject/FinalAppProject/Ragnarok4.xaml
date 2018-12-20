@@ -45,7 +45,7 @@
 
 
                 <Label Text="When most of the Gods had perished in the mutual destruction with the Giants, it is predetermined that a new world will rise up from the water, beautiful and green. Before the battle of Ragnarok, two people, Lif 'a woman' and Liftraser 'a man', will find shelter in the sacred tree Yggdrasil. And when the battle is over, they will come out and repopulate the earth again."
-                       FontSize="Large"
+                       FontSize="Medium"
                        TextColor="Black"
                        BackgroundColor="DarkOrange"
                        XAlign="Center"
