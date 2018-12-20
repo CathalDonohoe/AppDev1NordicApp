@@ -8,8 +8,8 @@
 
     <!-- Adding the nordic gods tabs-->
     <NordicGodsPage:Ymir Title="Ymir"/>
-    <NordicGodsPage:Frigg Title="Frigg"/>
     <NordicGodsPage:Odin Title="Odin"/>
+    <NordicGodsPage:Frigg Title="Frigg"/>
     <NordicGodsPage:Thor Title="Thor"/>
     <NordicGodsPage:Balder Title="Balder"/>
     <NordicGodsPage:Bragi Title="Bragi"/>

@@ -61,6 +61,7 @@
     <None Remove="Assets\Images\Tyr2.jpg" />
     <None Remove="Assets\Images\Tyr3.jpg" />
     <None Remove="Assets\Images\TyrSymbol.png" />
+    <None Remove="Assets\Images\vikingSymbol.png" />
     <None Remove="Assets\Images\Ymir.png" />
     <None Remove="Assets\Images\Ymir2.png" />
     <None Remove="Assets\Images\Ymir3.jpg" />
@@ -118,6 +119,7 @@
     <EmbeddedResource Include="Assets\Images\Tyr2.jpg" />
     <EmbeddedResource Include="Assets\Images\Tyr3.jpg" />
     <EmbeddedResource Include="Assets\Images\TyrSymbol.png" />
+    <EmbeddedResource Include="Assets\Images\vikingSymbol.png" />
     <EmbeddedResource Include="Assets\Images\Ymir.png" />
     <EmbeddedResource Include="Assets\Images\Ymir2.png" />
     <EmbeddedResource Include="Assets\Images\Ymir3.jpg" />

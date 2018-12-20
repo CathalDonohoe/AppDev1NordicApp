@@ -13,19 +13,22 @@
 
             
             <!--Main image-->
-            <Image x:Name="RagnarokImage4" Aspect="AspectFit"></Image>
+            <Image x:Name="RagnarokImage4" Aspect="AspectFit"
+                   HeightRequest="400" WidthRequest="500"></Image>
 
             
             
             <Label Text="There will be some warning signs if Ragnarok 'the end of the world' is coming. The first sign is the murder of the God Baldr, the son of Odin and Frigg which has already happened. The second sign will be three uninterrupted long cold winters that will last for three years with no summer in between. The name of these uninterrupted winters are called 'Fimbulwinter' during these three long years, the world will be plagued by wars, and brothers will kill brothers. The third sign will be the two wolves in the sky swallowing the sun and the moon, and even the stars will disappear and send the world into a great darkness."
                    FontSize="Medium"
                    TextColor="Black"
+                   BackgroundColor="DarkOrange"
                    XAlign="Center"
                    HorizontalOptions="Center"
                    VerticalOptions="Center" />
             
             <!--Third image-->
-            <Image x:Name="RagnarokImage5" Aspect="AspectFit"></Image>
+            <Image x:Name="RagnarokImage5" Aspect="AspectFit"
+                   HeightRequest="200" WidthRequest="500"></Image>
 
             </StackLayout>
         </ScrollView>

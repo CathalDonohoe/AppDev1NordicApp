@@ -7,7 +7,8 @@
             <StackLayout BackgroundColor="Green">
                 
                 <!--first image-->
-                <Image x:Name="imageHeimdall" Aspect="AspectFit"></Image>
+                <Image x:Name="imageHeimdall" Aspect="AspectFit"
+                       HeightRequest="300" WidthRequest="500"></Image>
                 
                 <!--Title-->
                 <Label Text="Heimdall"
@@ -18,26 +19,30 @@
                 
                 
                 <Label Text=" Heimdall is the god of light, the son of nine mothers (variously given as the daughters of Geirrendour the Giant or of Aegir). He was born at the end of the world and raised by the force of the earth, seawater and the blood of a boar. Because of his shining, golden teeth he is also called Gullintani ('gold tooth'). His hall is Himinbjorg, The Cliffs of Heaven, and his horse is Gulltop. Heimdall carries the horn Gjallar."
-                       FontSize="Large"
+                       FontSize="Medium"
                        TextColor="Black"
+                       BackgroundColor="LightGreen"
                        XAlign="Center"
                        HorizontalOptions="Center"
                        VerticalOptions="Center"/>
 
 
                 <!--Second image-->
-                <Image x:Name="imageHeimdall2" Aspect="AspectFit"></Image>
+                <Image x:Name="imageHeimdall2" Aspect="AspectFit"
+                       HeightRequest="400" WidthRequest="500"></Image>
                 
              
                 <Label Text="He is the watchman of the gods and guards Bifrost, the only entrance to Asgard, the realm of the gods. It is Heimdall's duty to prevent the giants from forcing their way into Asgard. He requires less sleep than a bird and can see a hundred miles around him, by night as well as by day. His hearing is so accurate that no sound escapes him: he can even hear the grass grow or the wool on a sheep's back. As the god Rig ('ruler'), Heimdall created the three races of mankind: the serfs, the peasants, and the warriors. It is interesting to note why Heimdall fathered them, and not Odin as might be expected. Furthermore, Heimdall is in many attributes identical with Tyr."
-                       FontSize="Large"
+                       FontSize="Medium"
                        TextColor="Black"
+                       BackgroundColor="LightGreen"
                        XAlign="Center"
                        HorizontalOptions="Center"
                        VerticalOptions="Center"/>
                 
                 <!--Third image-->
-                <Image x:Name="imageHeimdallSymbol" Aspect="AspectFit"></Image>
+                <Image x:Name="imageHeimdallSymbol" Aspect="AspectFit"
+                       HeightRequest="500" WidthRequest="500"></Image>
                 
             </StackLayout>
         </ScrollView>

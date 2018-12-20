@@ -30,7 +30,7 @@ namespace FinalAppProject
 
 
              string strFilename2 = "FinalAppProject.Assets.Images.ThorSymbol.png";
-            imageThorSymbol.Source = ImageSource.FromResource(strFilename, assembly);
+            imageThorSymbol.Source = ImageSource.FromResource(strFilename2, assembly);
 
 
             string strFilename3 = "FinalAppProject.Assets.Images.Thor2.jpg";

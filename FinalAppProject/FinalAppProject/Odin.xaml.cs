@@ -29,7 +29,7 @@ namespace FinalAppProject
             imageOdin.Source = ImageSource.FromResource(strFilename, assembly);
 
 
-            string strFilename2 = "FinalAppProject.Assets.Images.OdinSymbol.png";
+            string strFilename2 = "FinalAppProject.Assets.Images.vikingSymbol.png";
             imageOdinSymbol.Source = ImageSource.FromResource(strFilename2, assembly);
 
 

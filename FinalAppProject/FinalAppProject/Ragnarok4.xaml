@@ -12,13 +12,15 @@
                        HorizontalOptions="CenterAndExpand"/>
 
                 <!--Main Image-->
-                <Image x:Name="RagnarokImage8" Aspect="AspectFit"></Image>
+                <Image x:Name="RagnarokImage8" Aspect="AspectFit"
+                       HeightRequest="400" WidthRequest="500"></Image>
 
 
                 
                 <Label Text="Odin and the Fenrir wolf will fight each other to the death And Loki will turn on the Aesir, and fight Heimdall, and they will kill each other. Tyr will fight the watchdog 'Garm' that guards the gates of Hel, will also kill each other."
                        FontSize="Medium"
                        TextColor="Black"
+                       BackgroundColor="DarkOrange"
                        XAlign="Center"
                        HorizontalOptions="Center"
                        VerticalOptions="Center" />
@@ -32,6 +34,7 @@
                 <Label Text="Thor will fight the Midgard Serpent and kill it, but he will die of the poisonous wounds left behind by the Midgard Serpent. Freyr will be killed by the fire giant named Surtr. Finally, Surtr will set all the nine worlds on fire and everything sinks into the boiling sea. There is nothing the Gods can do to prevent Ragnarok. Odin's only comfort is that he can predict that Ragnarok, will not be the end of the world."
                        FontSize="Medium"
                        TextColor="Black"
+                       BackgroundColor="DarkOrange"
                        XAlign="Center"
                        HorizontalOptions="Center"
                        VerticalOptions="Center" />
@@ -44,13 +47,15 @@
                 <Label Text="When most of the Gods had perished in the mutual destruction with the Giants, it is predetermined that a new world will rise up from the water, beautiful and green. Before the battle of Ragnarok, two people, Lif 'a woman' and Liftraser 'a man', will find shelter in the sacred tree Yggdrasil. And when the battle is over, they will come out and repopulate the earth again."
                        FontSize="Large"
                        TextColor="Black"
+                       BackgroundColor="DarkOrange"
                        XAlign="Center"
                        HorizontalOptions="Center"
                        VerticalOptions="Center" />
                 
                 
                 <!--Forth image-->
-                <Image x:Name="RagnarokImage11" Aspect="AspectFit"></Image>
+                <Image x:Name="RagnarokImage11" Aspect="AspectFit"
+                       HeightRequest="300" WidthRequest="500"></Image>
                 
                 
             </StackLayout>

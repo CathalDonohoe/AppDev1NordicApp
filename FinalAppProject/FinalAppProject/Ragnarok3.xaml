@@ -9,7 +9,8 @@
                 <!--Title-->
                 <Label Text="The Beginning of Ragnarok" Font="Bold, 50"
                        VerticalOptions="CenterAndExpand" 
-                       HorizontalOptions="CenterAndExpand"/>
+                       HorizontalOptions="CenterAndExpand"
+                       HeightRequest="300" WidthRequest="500"/>
 
                 
                 <!--Main Image-->
@@ -19,6 +20,7 @@
                 <Label Text="A beautiful red rooster 'Fjalar which name means the 'All knower', will warn all the giants that the beginning of Ragnarok has begun. At the same time in Hel, will a red rooster warn all the dishonorable dead, that the war has begun. And also in Asgard, will a red rooster 'Gullinkambi' warn all the Gods. Heimdall will blow his horn as loud as he can and that will be the warning for all the einherjar in Valhalla that the war has started. This will be the battle to end all battles, and this will be the day that all the Vikings 'Einherjar' from Valhalla and Folkvangr who had died honorably in battle, to pick up their swords and armor to fight side by side with the Aesir against the Giants."
                        FontSize="Medium"
                        TextColor="Black"
+                       BackgroundColor="DarkOrange"
                        XAlign="Center"
                        HorizontalOptions="Center"
                        VerticalOptions="Center" />
@@ -30,6 +32,7 @@
                 <Label Text="The Gods, Baldr, and Hod will be returned from the dead, to fight one last time with their brothers and sisters. Odin will be riding on his horse Sleipnir with his eagle helmet equipped and his spear Gungnir in his hand, and lead the enormous army of Asgard with all the Gods and brave einherjar to the battleground in the fields of Vigrid. The Giants will together with Hel, and all her dishonorable dead, sail in the ship Naglfar, which is made from the fingernails of all the dead, sail to the plains of Vigrid. The dragon Nidhug will come flying over the battlefield and gather as many corpses for his never-ending hunger."
                        FontSize="Medium"
                        TextColor="Black"
+                       BackgroundColor="DarkOrange"
                        XAlign="Center"
                        HorizontalOptions="Center"
                        VerticalOptions="Center" />
